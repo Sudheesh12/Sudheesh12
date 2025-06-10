@@ -189,7 +189,7 @@ docker run hellomultistage
 
 By comparing the the file with and without multistage build we can see that:
 
-![[Pasted image 20250610152428.png]]
+![image](https://github.com/user-attachments/assets/05b58811-3a86-446f-bd37-0e88685e3492)
 
 - We can see the difference in the file size is significant.
 - the multistage build is close to the ubuntu image and the image without multistage build is at 449 MB.
