@@ -89,13 +89,13 @@ There are various ways of reducing the image:
 
 - **Collapsing Layers :** 
 	 - In a docker file each line or an cmd is an layer, 
-	 ```Dockerfile
+```Dockerfile
 RUN apt-get update           ----layer 1
 RUN apt-install <packages>   ----layer 2
 ```
-	- We can also combine both the above layer. by doing this the temp files from both the layer do not get cached in separate layers. hence reducing the size of the image significantly.
-	- this would also reduce the readability of the docker file.
-	- Also each layer becomes expensive as the layer would consume lot more time to execute.
+- We can also combine both the above layer. by doing this the temp files from both the layer do not get cached in separate layers. hence reducing the size of the image significantly.
+- this would also reduce the readability of the docker file.
+- Also each layer becomes expensive as the layer would consume lot more time to execute.
 	
 ```Dockerfile
 RUN apt-get update && apt-install <package>   -----both in one layer
