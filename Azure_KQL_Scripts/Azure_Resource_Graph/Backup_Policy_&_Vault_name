@@ -1,0 +1,10 @@
+// This script will give the name of the backup policy and the vault also with the server name, resource group.
+
+RecoveryServicesResources
+| where type =~ 'microsoft.recoveryservices/vaults/backupfabrics/protectioncontainers/protecteditems'
+| where properties.backupManagementType == 'AzureIaasVM'
+| extend policyName = tostring(properties.policyName)
+| extend vmName = tostring(split(properties.sourceResourceId, '/')[-1])
+| extend vaultName = tostring(split(id, '/vaults/')[1])
+| extend vaultName = tostring(split(vaultName, '/')[0])
+| project vmName, policyName, vaultName, resourceGroup, subscriptionId
