@@ -1,0 +1,6 @@
+InsightsMetrics
+| where Namespace == "LogicalDisk"
+| where Name == "FreeSpacePercentage"  
+| extend TagsDynamic = todynamic(Tags) 
+| extend DiskMount = TagsDynamic["vm.azm.ms/mountId"]
+| summarize AggregatedValue = avg(Val) by DiskMount = tostring(DiskMount), ResourceId = _ResourceId, bin(TimeGenerated, 5m)
