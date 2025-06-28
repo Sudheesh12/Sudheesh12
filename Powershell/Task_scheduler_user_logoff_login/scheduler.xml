@@ -1,3 +1,8 @@
+<!--This XML defines a Windows Scheduled Task that runs a specified PowerShell script automatically whenever any user logs off the system. 
+The trigger is based on Security Event ID 4647, which corresponds to a user-initiated logoff event. 
+The task runs with highest privileges under the SYSTEM account to ensure it has the necessary permissions to execute administrative actions, such as enabling network adapters or performing system-level logging. 
+The script path specified in the <Arguments> section should be updated to point to the actual PowerShell script you wish to run at logoff. -->
+
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>

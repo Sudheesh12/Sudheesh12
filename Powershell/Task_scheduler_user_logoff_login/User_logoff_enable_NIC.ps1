@@ -1,3 +1,6 @@
+# the below script enables the NIC's and logs the data in "C:\ProgramData\UserLogoff_Error.log"
+#
+#
 # --- Log the user who is logging off ---
 try {
     $user = $env:USERNAME
