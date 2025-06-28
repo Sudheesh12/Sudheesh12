@@ -1,3 +1,5 @@
+# this script disable the NIC based on the suffix -c and -r
+
 # Auto-elevate if not running as Administrator
 If (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)) {
     Start-Process powershell.exe -ExecutionPolicy Bypass -File $PSCommandPath -Verb RunAs
