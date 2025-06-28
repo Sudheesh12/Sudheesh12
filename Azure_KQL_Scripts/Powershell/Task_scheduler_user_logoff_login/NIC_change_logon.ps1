@@ -69,23 +69,19 @@ function Test-CorrectNIC {
         $adapterC = Get-NetAdapter -Name $nicC -ErrorAction Stop
         $adapterR = Get-NetAdapter -Name $nicR -ErrorAction Stop
 
-        switch ($user) {
-            "aperez-c" {
-                if ($adapterC.Status -eq 'Up' -and $adapterR.Status -eq 'Disabled') {
-                    "User $user is already on correct network ($nicC enabled, $nicR disabled). No action needed." | Out-File -Append $logPath
-                    return $true
-                }
+        if ($user -match "-c$") {
+            if ($adapterC.Status -eq 'Up' -and $adapterR.Status -eq 'Disabled') {
+                "User $user is already on correct network ($nicC enabled, $nicR disabled). No action needed." | Out-File -Append $logPath
+                return $true
             }
-            "aperez-r" {
-                if ($adapterR.Status -eq 'Up' -and $adapterC.Status -eq 'Disabled') {
-                    "User $user is already on correct network ($nicR enabled, $nicC disabled). No action needed." | Out-File -Append $logPath
-                    return $true
-                }
+        } elseif ($user -match "-r$") {
+            if ($adapterR.Status -eq 'Up' -and $adapterC.Status -eq 'Disabled') {
+                "User $user is already on correct network ($nicR enabled, $nicC disabled). No action needed." | Out-File -Append $logPath
+                return $true
             }
-            default {
-                "Unknown user or no user detected. No pre-check performed." | Out-File -Append $logPath
-                return $false
-            }
+        } else {
+            "User $user does not end with -c or -r. No pre-check performed." | Out-File -Append $logPath
+            return $false
         }
         return $false
     } catch {
@@ -108,20 +104,16 @@ if (Test-CorrectNIC -user $currentUser) {
 }
 
 # SAFETY: Enable the required NIC first → wait → Disable the other NIC
-switch ($currentUser) {
-    "aperez-c" {
-        Set-NIC -nicName $nicC -enable $true
-        Start-Sleep -Seconds 5
-        Set-NIC -nicName $nicR -enable $false
-    }
-    "aperez-r" {
-        Set-NIC -nicName $nicR -enable $true
-        Start-Sleep -Seconds 5
-        Set-NIC -nicName $nicC -enable $false
-    }
-    default {
-        "Unknown user. No action taken." | Out-File -Append $logPath
-    }
+if ($currentUser -match "-c$") {
+    Set-NIC -nicName $nicC -enable $true
+    Start-Sleep -Seconds 5
+    Set-NIC -nicName $nicR -enable $false
+} elseif ($currentUser -match "-r$") {
+    Set-NIC -nicName $nicR -enable $true
+    Start-Sleep -Seconds 5
+    Set-NIC -nicName $nicC -enable $false
+} else {
+    "User $currentUser does not end with -c or -r. No action taken." | Out-File -Append $logPath
 }
 
 "--- End ---`n" | Out-File -Append $logPath
