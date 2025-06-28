@@ -1,0 +1,1 @@
+schtasks /Create /TN "RunOnUserLogoff" /XML "C:location of the file" /F
