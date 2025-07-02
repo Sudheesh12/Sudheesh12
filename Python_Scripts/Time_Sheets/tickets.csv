@@ -1,0 +1,1699 @@
+"number","opened_at","caller_id","short_description","priority","state","assignment_group","assigned_to","sys_updated_on","close_notes"
+"INC0158459","2025-06-27 14:41:33","Rey Mandapat","Routing issues","5 - Planning","In Progress","CDNA Stratogent","Nandan Nk (C)","2025-07-01 16:09:40",""
+"INC0158194","2025-06-25 12:12:21","SolarWinds ","CareDx||SolarWinds Alerts Not Fetching Properly into ServiceNow","3 - Moderate","In Progress","CDNA Stratogent","Anushree V (C)","2025-07-01 17:09:53",""
+"INC0158236","2025-06-25 20:43:00","SolarWinds ","Alert for Stockholm - New DHCP server detected","3 - Moderate","In Progress","CDNA Stratogent","Somanth Krishnamurthy (C)","2025-06-25 20:45:31",""
+"INC0158400","2025-06-27 08:59:47","Druva Cloud Admin","CareDx || Multiple [Druva Hybrid Workloads] Backup Job Skipped","3 - Moderate","On Hold","CDNA Stratogent","Saubhadra Badajena (C)","2025-07-01 20:31:52",""
+"INC0157148","2025-06-13 11:55:57","Guna Sekhar (C)","Test Caredx access for all Caredx resources after removing O365 License","4 - Low","On Hold","CDNA Stratogent","Logesh Ramamoorthy (C)","2025-06-18 02:12:12",""
+"INC0158038","2025-06-24 08:09:06","Guna Sekhar (C)","Check SMTP relay server requests","3 - Moderate","On Hold","CDNA Stratogent","Pompa Reddy (C)","2025-07-01 20:23:04",""
+"INC0158466","2025-06-27 17:03:19","SolarWinds ","Critical : Open : volume 'sto-galaxyrs-C:\ Label: BC99C53E ' on Node 'sto-galaxyrs' is in 'Unknown ' stateAn issue on an object you are monitoring occurred at","3 - Moderate","On Hold","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-28 21:08:02",""
+"INC0158352","2025-06-26 20:49:56","Druva Cloud Admin","[Druva Hybrid Workloads] Backup Job Skipped for STO-PRD-DC02","3 - Moderate","On Hold","CDNA Stratogent","Saubhadra Badajena (C)","2025-07-01 20:33:33",""
+"INC0158405","2025-06-27 09:32:08","SolarWinds ","Critical: Open - Application ""SSL Certificate"" on ""STO-VCENTER01"" is currently CriticalThe application SSL Certificate on STO-VCENTER01 (10.100.100.230) is cu","3 - Moderate","Resolved","CDNA Stratogent","Varunsimha M P (C)","2025-07-02 02:05:18","The application is ""up and running fine,"" and the component HTTPS monitor is ""up"". Additionally, we have received the recovery alert further no issues were found, hence closing this incident."
+"INC0158683","2025-06-30 19:56:01","Microsoft Azure NoReply","Azure: Activated Severity: 0 Percentage_CPU_dev-bio-stat01","3 - Moderate","Resolved","CDNA Stratogent","Pompa Reddy (C)","2025-07-01 17:11:39","Upon verifying from the Azure portal and server end CPU usage is below threshold 18.63%. further we have received recovery alert from the Azure. Further no actions required hence moving ticket to closure.
+"
+"INC0158531","2025-06-30 05:30:36","Microsoft Azure NoReply","Azure: Activated Severity: 0 Available Memory Bytes - prd-it-tools","3 - Moderate","Resolved","CDNA Stratogent","Puneeth Nagaraj (C)","2025-07-01 02:12:24","Upon validating, we could see that the usage has dropped down, and also the alert is cleared. Hence closing the ticket."
+"INC0158021","2025-06-23 22:14:03","SolarWinds ","Critical: ALERT: LockBoxFTP rebooted at 6/23/2025 10:11:00 PM","3 - Moderate","Resolved","CDNA Stratogent","Pasapula Dinesh (C)","2025-07-01 22:17:40","LockboxFTP is in ignore list. the server will be rebooted daily.
+
+As, we received cleared alert from solarwinds.
+
+Moving the ticket to closure.
+"
+"INC0158505","2025-06-29 23:16:09","SolarWinds ","Critical: Open - Application ""SSL Certificate Expiration Date"" on ""xq-prod.caredx.com"" is currently Down","3 - Moderate","Resolved","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-30 05:06:01","Hello Team,
+
+Chris informed that this is managed through Key Manager. Please ignore this alert. Hence marking this ticket to resolved state."
+"INC0158515","2025-06-30 02:23:13","Sanju Choubey (C)","CareDx ||  IT KPI  data on P1, Server Uptime, Ticket, CRs for June 2025","3 - Moderate","Resolved","CDNA Stratogent","Puneeth Nagaraj (C)","2025-07-02 01:29:14","Shared the IT KPI data on P1, Server Uptime, Ticket, CRs for June 2025 as requested.
+Hence closing the ticket.
+"
+"INC0158516","2025-06-30 02:25:07","Sanju Choubey (C)","CareDx || IT KPI  data for Network Uptime report for June 2025.","3 - Moderate","Resolved","CDNA Stratogent","Somanth Krishnamurthy (C)","2025-07-01 04:15:51","Hi Team,
+Attaching the Network devices Uptime for the June month, hence closing the ticket.
+
+Regards,
+Ravi Kiran"
+"INC0158518","2025-06-30 03:22:24","SolarWinds ","Critical: Open: ALERT: Current packet loss for ttp-la-sdn-ecxs-01 is 50 %.Average Response time is 93 ms and is varying from 91 ms to 97 ms.","3 - Moderate","Resolved","CDNA Stratogent Network","Ravi Kiran (C)","2025-07-01 00:22:20","We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure"
+"INC0158519","2025-06-30 03:23:46","SolarWinds ","Critical : Open : Node ""ttp-la-sdn-ecxs-01"" IP ""10.98.98.98"" is ""Down""  Alert description: Node ""ttp-la-sdn-ecxs-01""  IP ""10.98.98.98""  is DownAlert Genera","3 - Moderate","Resolved","CDNA Stratogent Network","Ravi Kiran (C)","2025-07-01 00:26:01","We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure"
+"INC0158574","2025-06-30 07:09:14","Swaroop MS (C)","CareDx || Please review and update the DNS 1 and 2 entries for the Diane VM.","3 - Moderate","Resolved","CDNA Stratogent","Swaroop MS (C)","2025-06-30 09:23:50","Hello Team,
+
+As checked, already DNS 1 and 2 are pointing to Primary - 10.100.100.12 - sto-prd-dc02.
+
+Secondary - 10.50.134.4 - azwe-prd-dc01
+
+No further action required.
+
+Hence marking this as closure.
+
+Thanks,
+
+Swaroop MS"
+"INC0158572","2025-06-30 07:07:27","Swaroop MS (C)","CareDx || Please review and update the DNS 1 and 2 entries for the STO-Phoenix server","3 - Moderate","Resolved","CDNA Stratogent","Swaroop MS (C)","2025-06-30 09:12:18","Hi Team,
+
+We have successfully updated the DNS settings for the STO-Phoenix server.
+
+No further action is needed.
+
+Hence marking this as closure.
+
+Thanks,
+Swaroop MS"
+"INC0158568","2025-06-30 06:50:02","Swaroop MS (C)","Caredx | Druva Backup | Proxy disconnects","3 - Moderate","Resolved","CDNA Stratogent","Swaroop MS (C)","2025-06-30 11:39:08","We have noticed backups are in a queued state due to proxy disconnection disconnected and these proxy servers (backup_proxy_Ubuntu,sto-phoenix01) are hosted in Sweden location, post updated the DNS pointing to Primary – 10.100.100.12 (sto-prd-dc02) ,Secondary – 10.50.134.4 (azwe-prd-dc01).The proxy backup pool sto-phoenix01 is back to online and Backup jobs are started initializing. 
+However, we are not able to update the DNS settings to back up_proxy_Ubuntu as password is not working. 
+
+No further action is needed.
+
+Hence marking this ticket as closure.
+
+"
+"INC0158527","2025-06-30 04:03:42","SolarWinds ","Testing mail","5 - Planning","Resolved","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 04:10:47","The mentioned tickets were created for testing service alerts and SolarWinds ticket generation. Currently, we are experiencing an issue where blank tickets are being generated.
+
+Reference: INC0158194
+
+As there is already an active ticket open for this issue, we are closing this duplicate ticket."
+"INC0158525","2025-06-30 03:49:33","SolarWinds ","Testing mail","5 - Planning","Resolved","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 04:11:15","The mentioned tickets were created for testing service alerts and SolarWinds ticket generation. Currently, we are experiencing an issue where blank tickets are being generated.
+
+Reference: INC0158194
+
+As there is already an active ticket open for this issue, we are closing this duplicate ticket."
+"INC0158595","2025-06-30 08:21:37","Guna Sekhar (C)","Error While Deleting VM Extension 'vm-iface-' Servers | Troubleshoot Issue in Azure","3 - Moderate","Resolved","CDNA Stratogent","Pompa Reddy (C)","2025-06-30 12:19:38","Validated both OTTR internal & customer environments; the Qualys extension from Azure is already removed along with the agent.
+This includes vm-iface-** and vm-rprt-** servers."
+"INC0158524","2025-06-30 03:39:50","SolarWinds ","Testing mail","5 - Planning","Resolved","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 03:50:44","The mentioned tickets were created for testing service alerts and SolarWinds ticket generation. Currently, we are experiencing an issue where blank tickets are being generated.
+
+Reference: INC0158194
+
+As there is already an active ticket open for this issue, we are closing this duplicate ticket."
+"INC0158635","2025-06-30 11:35:30","Rey Mandapat","Request to Create and Maintain No-Access Server Log for Patch","3 - Moderate","Resolved","CDNA Stratogent","Pasapula Dinesh (C)","2025-07-01 17:43:56","Document has been prepared, and as update from Rey ""whoever would be doing the updates and taking control for the pre and post updates activities to go VERIFY against this list and skip unnecessary trying to access the servers.""
+
+Moving ticket to closure.
+"
+"INC0158523","2025-06-30 03:38:24","SolarWinds ","Testing mail","5 - Planning","Resolved","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 03:50:11","The mentioned tickets were created for testing service alerts and SolarWinds ticket generation. Currently, we are experiencing an issue where blank tickets are being generated.
+
+Reference: INC0158194
+
+As there is already an active ticket open for this issue, we are closing this duplicate ticket."
+"INC0158521","2025-06-30 03:30:37","SolarWinds ","Alert for TTP Louisiana - APs went down","3 - Moderate","Resolved","CDNA Stratogent Network","Ravi Kiran (C)","2025-07-01 02:01:15","The issue was due to Incompatibility between the client and access point. Now the AP is Up and running as expected."
+"INC0158522","2025-06-30 03:37:10","SolarWinds ","Testing mail","5 - Planning","Resolved","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 03:49:42","The mentioned tickets were created for testing service alerts and SolarWinds ticket generation. Currently, we are experiencing an issue where blank tickets are being generated.
+
+Reference: INC0158194
+
+As there is already an active ticket open for this issue, we are closing this duplicate ticket."
+"INC0158520","2025-06-30 03:31:16","SolarWinds ","Testing mail","5 - Planning","Resolved","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 03:49:05","The mentioned tickets were created for testing service alerts and SolarWinds ticket generation. Currently, we are experiencing an issue where blank tickets are being generated.
+
+Reference: INC0158194
+
+As there is already an active ticket open for this issue, we are closing this duplicate ticket."
+"INC0158668","2025-06-30 15:00:43","SolarWinds ","Critical: ALERT: brisbiophys-ssh01 rebooted at 6/30/2025 2:58:00 PM","3 - Moderate","Resolved","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-30 15:03:48","As informed by the customer, brisbiophys-ssh01 has rebooted.
+
+Reducing the priority to P3.
+
+Closing the ticket."
+"INC0157652","2025-06-19 07:17:30","SolarWinds ","Critical : Open : Node ""SSP Lab Switch"" IP ""192.168.23.9"" is ""Down""  Alert description: Node ""SSP Lab Switch""  IP ""192.168.23.9""  is DownAlert Generated ti","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 09:00:03","Resolution notes copied from Parent Incident: All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident.
+Incident 'INC0157652' closed based on closure of task 'INC0157651'
+
+All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident."
+"INC0157680","2025-06-19 23:42:20","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Jaws"" is currently CriticalThe application Windows Server 2003-2012 Services","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-22 01:00:02","Upon verifying the URL in SolarWinds, we found that Application Windows Server 2003-2012 Services and Counters"" on ""Jaws""  is up and running fine.
+All the application and services up and running fine .
+No further action required.
+Since the alert is also cleared, we are good to close the ticket."
+"INC0157687","2025-06-20 05:03:57","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf11-acc-ms250-01 is 50 %.Average Response time is 170 ms and is varying from 170 ms to 171 ms.","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:02","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157688","2025-06-20 05:04:02","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf11-acc-ms250-02 is 50 %.Average Response time is 168 ms and is varying from 168 ms to 168 ms.","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:06","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+
+Incident 'INC0157688' closed based on closure of task 'INC0157705'
+
+Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157649","2025-06-19 07:14:46","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility || prd-lims-svc1","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-21 08:00:01","We received an availability alert for the virtual machine prd-lims-svc1.
+Upon reviewing the Azure Resource Health logs, the VM has consistently shown as ""Available"" before and after the event, with no current issues reported. The server is currently up and running as expected.
+We will proceed with closing the ticket for now. 
+"
+"INC0157678","2025-06-19 21:12:14","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""Jaws"" is currently CriticalThe application Windows Server 2016 Services and Count","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-22 01:00:01","Upon verifying the URL in SolarWinds, we found that Application ""Windows Server 2016 Services and Counters"" on ""Jaws""   is up and running fine.
+All the application and services up and running fine .
+No further action required.
+Since the alert is also cleared, we are good to close the ticket."
+"INC0157667","2025-06-19 14:05:54","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability_azie-bioseq01","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-21 15:00:00","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157665","2025-06-19 12:02:07","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2003-2012 Se","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-21 13:00:00","Upon checking  Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is Up and Running fine.
+Logical Disk: Avg. Disk Queue Length(UP)
+Physical Disk: Avg. Disk Queue Length(UP)
+"
+"INC0157663","2025-06-19 10:24:47","SolarWinds ","Critical: Open - Application ""CareDx_Application_Monitor"" on ""vcenter01"" is currently Down","5 - Planning","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-21 12:00:01","Hi Team,
+
+Upon checking, Application_Monitor on vcenter01 (10.125.143.10) is Up
+
+we found that the application and services are running properly.
+
+ClarityLIMS (UP)
+
+Therefore, we are closing this ticket.
+
+Thanks & Regards 
+sanjay s"
+"INC0157650","2025-06-19 07:15:53","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability - vm-sdwan-ecv-prod-02","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-21 08:00:00","We received an availability alert for the virtual machine vm-sdwan-ecv-prod-02 .
+Upon reviewing the Azure Resource Health logs, the VM has consistently shown as ""Available"" before and after the event, with no current issues reported. The server is currently up and running as expected.
+We will proceed with closing the ticket for now
+"
+"INC0157653","2025-06-19 07:17:34","SolarWinds ","Critical : Open : Node ""Warehouse Switch"" IP ""192.168.23.10"" is ""Down""  Alert description: Node ""Warehouse Switch""  IP ""192.168.23.10""  is DownAlert Genera","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 09:00:02","Resolution notes copied from Parent Incident: All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident.
+Incident 'INC0157653' closed based on closure of task 'INC0157651'
+
+All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident."
+"INC0157651","2025-06-19 07:17:26","SolarWinds ","Critical : Open : Node ""Instrument Room Switch"" IP ""192.168.23.11"" is ""Down""  Alert description: Node ""Instrument Room Switch""  IP ""192.168.23.11""  is Down","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 09:00:00","All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident."
+"INC0157689","2025-06-20 05:04:05","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf21-acc-ms250-02 is 60 %.Average Response time is 169 ms and is varying from 169 ms to 171 ms.","5 - Planning","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-29 11:00:02","As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds.
+"
+"INC0157690","2025-06-20 05:04:09","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf01-acc-cms250-02 is 70 %.Average Response time is 175 ms and is varying from 168 ms to 183 ms.","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 11:00:02","Resolution notes copied from Parent Incident: As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds."
+"INC0157691","2025-06-20 05:04:13","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf01-acc-cms250-01 is 60 %.Average Response time is 167 ms and is varying from 167 ms to 168 ms.","5 - Planning","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-29 11:00:03","
+As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds."
+"INC0157708","2025-06-20 05:15:31","SolarWinds ","Critical : Open : volume 'Diane-J:\ Label:BackupESX2 E451CC8F ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred at","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 16:00:00","Following John's troubleshooting, the alerts have cleared and the devices are now back under monitoring in SolarWinds.
+
+No further action is required at this time.
+
+Proceeding to close the ticket."
+"INC0157707","2025-06-20 05:15:27","SolarWinds ","Critical : Open : volume 'Diane-K:\ Label:BackupNAS 06807C29 ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred at","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 16:00:02","Following John's troubleshooting, the alerts have cleared and the devices are now back under monitoring in SolarWinds.
+
+No further action is required at this time.
+
+Proceeding to close the ticket."
+"INC0157706","2025-06-20 05:15:23","SolarWinds ","Critical : Open : volume 'Diane-H:\ Label:BackupPhysical D0E3A56E ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurre","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 16:00:03","Following John's troubleshooting, the alerts have cleared, and the devices are now back under monitoring in SolarWinds.
+
+No further action is required at this time.
+
+Proceeding to close the ticket."
+"INC0157705","2025-06-20 05:15:19","SolarWinds ","Critical : Open : volume 'Diane-F:\ Label:NAS4 Restore 528747A3 ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:03","Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157703","2025-06-20 05:15:10","SolarWinds ","Critical : Open : volume 'Diane-C:\ Label: 82CE9617 ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred at Friday,","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 16:00:03","Following John's troubleshooting, the alerts have cleared and the devices are now back under monitoring in SolarWinds.
+
+No further action is required at this time.
+
+Proceeding to close the ticket."
+"INC0157702","2025-06-20 05:15:06","SolarWinds ","Critical : Open : volume 'STO-ODIN-C:\ Label: 9C88FF3E ' on Node 'STO-ODIN' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred at Fr","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:06","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+
+Incident 'INC0157702' closed based on closure of task 'INC0157705'
+
+Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157700","2025-06-20 05:07:03","SolarWinds ","Critical : Open : Node ""stk-mdf21-acc-ms250-01"" IP ""192.168.13.144"" is ""Down""  Alert description: Node ""stk-mdf21-acc-ms250-01""  IP ""192.168.13.144""  is Down","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 10:00:02","As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds.
+"
+"INC0157699","2025-06-20 05:06:58","SolarWinds ","Critical : Open : Node ""stk-mdf11-sdn-ecxs-01"" IP ""192.168.100.2"" is ""Down""  Alert description: Node ""stk-mdf11-sdn-ecxs-01""  IP ""192.168.100.2""  is DownAl","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 11:00:02","As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds.
+"
+"INC0157698","2025-06-20 05:06:05","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf11-sdn-ecxs-01 is 60 %.Average Response time is 163 ms and is varying from 163 ms to 164 ms.","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 11:00:03","As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds.
+"
+"INC0157697","2025-06-20 05:06:01","SolarWinds ","Critical: Open: ALERT: Current packet loss for stk-mdf21-acc-ms250-01 is 70 %.Average Response time is 168 ms and is varying from 168 ms to 168 ms.","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:01","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157696","2025-06-20 05:05:27","SolarWinds ","Critical : Open : Node ""stk-mdf01-acc-cms250-02"" IP ""192.168.13.121"" is ""Down""  Alert description: Node ""stk-mdf01-acc-cms250-02""  IP ""192.168.13.121""  is Dow","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 11:00:02","As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds."
+"INC0157695","2025-06-20 05:05:22","SolarWinds ","Critical : Open : Node ""stk-mdf21-acc-ms250-02"" IP ""192.168.13.143"" is ""Down""  Alert description: Node ""stk-mdf21-acc-ms250-02""  IP ""192.168.13.143""  is Down","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:05","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+
+Incident 'INC0157695' closed based on closure of task 'INC0157705'
+
+Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157704","2025-06-20 05:15:15","SolarWinds ","Critical : Open : volume 'Diane-E:\ Label:BackupESX3 D875A36F ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred at","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:07","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+
+Incident 'INC0157704' closed based on closure of task 'INC0157705'
+
+Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157694","2025-06-20 05:05:18","SolarWinds ","Critical : Open : Node ""stk-mdf11-acc-ms250-02"" IP ""192.168.13.128"" is ""Down""  Alert description: Node ""stk-mdf11-acc-ms250-02""  IP ""192.168.13.128""  is Down","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 11:00:01","As update from John fixed the azure <> onprem routing issue. Looks like most everything came online.
+
+Able to ping the node without any ping loss and is up from the solarwinds.
+"
+"INC0157693","2025-06-20 05:05:14","SolarWinds ","Critical : Open : Node ""stk-mdf11-acc-ms250-01"" IP ""192.168.13.120"" is ""Down""  Alert description: Node ""stk-mdf11-acc-ms250-01""  IP ""192.168.13.120""  is Down","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:06","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+
+Incident 'INC0157693' closed based on closure of task 'INC0157705'
+
+Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157692","2025-06-20 05:05:10","SolarWinds ","Critical: Open: ALERT: Current packet loss for Sweden1120B-FTD is 80 %.Average Response time is 172 ms and is varying from 169 ms to 176 ms.","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 12:00:01","As update from the John node Sweden1120B-FTD has been decommissioned no further action required, hence moving ticket to closure.
+"
+"INC0157709","2025-06-20 05:15:35","SolarWinds ","Critical : Open : volume 'Diane-L:\ Label:BackupVienna 928D565C ' on Node 'Diane' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred","5 - Planning","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 16:00:02","Following John's troubleshooting, the alerts have cleared and the devices are now back under monitoring in SolarWinds.
+
+No further action is required at this time.
+
+Proceeding to close the ticket."
+"INC0157648","2025-06-19 07:12:10","SolarWinds ","Critical: Open: ALERT: Current packet loss for Warehouse Switch is 60 %.Average Response time is 168 ms and is varying from 168 ms to 169 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 09:00:02","Resolution notes copied from Parent Incident: All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident.
+Incident 'INC0157648' closed based on closure of task 'INC0157651'
+
+All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident."
+"INC0157647","2025-06-19 07:12:06","SolarWinds ","Critical: Open: ALERT: Current packet loss for SSP Lab Switch is 70 %.Average Response time is 171 ms and is varying from 169 ms to 175 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 09:00:00","Resolution notes copied from Parent Incident: All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident.
+Incident 'INC0157647' closed based on closure of task 'INC0157651'
+
+All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident."
+"INC0157620","2025-06-18 18:09:50","SolarWinds ","Alert for Stockholm - Settings changed","3 - Moderate","Closed","CDNA Stratogent","Sanjay C (C)","2025-06-21 17:00:00","Hi Team,
+
+The changes were done by Rajendran. Hence closing the ticket.
+
+Thank you,
+Sanjay C"
+"INC0157619","2025-06-18 18:01:40","Microsoft Azure NoReply","Azure: Activated Severity: 0 Vm Availability vm-eis-qa-wus2-1","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-20 19:00:00","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157618","2025-06-18 17:43:30","SolarWinds ","Critical : Open : Node ""Diane"" IP ""10.100.100.146"" is ""Down""  Alert description: Node ""Diane""  IP ""10.100.100.146""  is DownAlert Generated time  : 6/18/202","2 - High","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-21 04:00:00","Hi Team,
+
+As per John's update, some inadvertent changes were made to the core switch, which impacted routing for certain servers. These changes have since been reverted.
+
+Upon verifying the server is now up and running smoothly, with no packet loss observed.
+
+Best regards,
+Mahesh C"
+"INC0157617","2025-06-18 17:42:33","SolarWinds ","Critical : Open : Node ""STO-VCENTER01"" IP ""10.100.100.230"" is ""Down""  Alert description: Node ""STO-VCENTER01""  IP ""10.100.100.230""  is DownAlert Generated","2 - High","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-21 04:00:01","Hi Team,
+
+As per John's update, some inadvertent changes were made to the core switch, which impacted routing for certain servers. These changes have since been reverted.
+
+Upon verifying the server is now up and running smoothly, with no packet loss observed.
+
+Best regards,
+Mahesh C"
+"INC0157616","2025-06-18 17:42:30","SolarWinds ","Critical : Open : Node ""STO-ODIN"" IP ""10.100.100.136"" is ""Down""  Alert description: Node ""STO-ODIN""  IP ""10.100.100.136""  is DownAlert Generated time  : 6/","2 - High","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-21 03:00:00","Hi Team,
+
+As per John's update, some inadvertent changes were made to the core switch, which impacted routing for certain servers. These changes have since been reverted.
+
+Upon verifying the server is now up and running smoothly, with no packet loss observed.
+
+Best regards,
+Mahesh C"
+"INC0157615","2025-06-18 17:38:29","SolarWinds ","Critical: Open: ALERT: Current packet loss for Diane is 60 %.Average Response time is 169 ms and is varying from 167 ms to 176 ms.","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-22 06:00:02","Hi team,
+
+Upon checking, the server is up and running smoothly with no packet loss observed.
+
+No further action is required at this time. We will proceed to close the incident. PFA
+
+Best regards,
+Mahesh C"
+"INC0157614","2025-06-18 17:37:37","SolarWinds ","Critical: Open: ALERT: Current packet loss for STO-VCENTER01 is 80 %.Average Response time is 167 ms and is varying from 167 ms to 168 ms.","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-22 06:00:01","Hi team,
+
+Upon checking, the server is up and running smoothly with no packet loss observed.
+
+No further action is required at this time. We will proceed to close the incident. PFA
+
+Best regards,
+Mahesh C"
+"INC0157613","2025-06-18 17:37:33","SolarWinds ","Critical: Open: ALERT: Current packet loss for STO-ODIN is 50 %.Average Response time is 169 ms and is varying from 168 ms to 171 ms.","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-22 06:00:02","Hi team,
+
+Upon checking, the server is up and running smoothly with no packet loss observed.
+
+No further action is required at this time. We will proceed to close the incident. PFA
+
+Best regards,
+Mahesh C"
+"INC0157612","2025-06-18 17:37:29","SolarWinds ","Critical: Open - Application ""SSL Certificate"" on ""STO-VCENTER01"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-21 05:00:00","The following is a list of components in this application presently.
+
+HTTPS Monitor(Up)
+SSL Certificate Expiration Date Monitor(Up)"
+"INC0157599","2025-06-18 14:15:26","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibiltiy LIMS-SQL-DEVLAB","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-20 15:00:02","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157597","2025-06-18 13:44:25","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability azwe-dev-azdf04  || telcortest","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-20 15:00:03","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157593","2025-06-18 13:24:51","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility azpwlabslimapp1","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-20 18:00:01","We received an availability alert for the VM azpwprdslimapp1.
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+"
+"INC0157592","2025-06-18 13:08:15","Rey Mandapat","Solarwinds Dashboard admin access","5 - Planning","Closed","CDNA Stratogent","Anushree V (C)","2025-06-21 06:00:00","User role has been changed"
+"INC0157581","2025-06-18 12:30:20","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility lims-sql-prd2","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-22 10:00:03","Hi Team,
+
+Upon review, the Azure Resource Health logs indicated a brief unavailability event. This appears to be platform-initiated and likely a temporary discrepancy in Azure's monitoring system.
+
+However, both servers are up and reachable via ping from the Azure end. We have informed Chris accordingly.
+
+No further action is needed.
+
+Hence marking this as closure.
+
+Thanks,
+Swaroop MS"
+"INC0157575","2025-06-18 12:08:13","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility azpwsndslimapp1","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-20 15:00:00","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, mail sent to the customer informing them the same. no further action required hence marking the ticket for closure."
+"INC0157621","2025-06-18 18:10:56","SolarWinds ","Alert for Stockholm - Settings changed","3 - Moderate","Closed","CDNA Stratogent","Sanjay C (C)","2025-06-21 17:00:01","Hi Team,
+
+The changes were done by Rajendran. Hence closing the ticket.
+
+Thank you,
+Sanjay C"
+"INC0157622","2025-06-18 18:19:24","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability azwe-dev-frnt01","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 21:00:03","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157623","2025-06-18 18:20:50","Microsoft Azure NoReply","Azure: Activated Severity: 0 Vm Availability vm-eis-uat-wus2","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 21:00:02","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157646","2025-06-19 07:12:02","SolarWinds ","Critical: Open: ALERT: Current packet loss for Instrument Room Switch is 70 %.
+Average Response time is 168 ms and is varying from 168 ms to 169 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 09:00:01","Resolution notes copied from Parent Incident: All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident.
+Incident 'INC0157646' closed based on closure of task 'INC0157651'
+
+All the devices are ""up and running fine"" and there was no downtime issue; hence, closing this incident."
+"INC0157645","2025-06-19 06:37:28","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability || azwe-dev-srlm01","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 07:00:01","Upon reviewing the Azure Resource Health logs, the VM has consistently shown as ""Available"" before and after the event, with no current issues reported. Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+However, server is currently up and running as expected. We will proceed with closing the ticket for now."
+"INC0157643","2025-06-19 05:22:29","Microsoft Azure NoReply","Azure: Activated Severity: 0 vm availibility || azpwqaslimapp1","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-21 07:00:01","We received an availability alert for the virtual machine azpwqaslimapp1.
+
+Upon reviewing the Azure Resource Health logs, the VM has consistently shown as ""Available"" before and after the event, with no current issues reported. The server is currently up and running as expected.
+
+We will proceed with closing the ticket for now. 
+"
+"INC0157642","2025-06-19 03:53:32","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availabilty-vm-dev-web-mtilda-01","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 05:00:01","Upon checking, we could see that the VM was up and running. Resource Health is available, and we don't see any reboots or downtime observed.
+Suspecting discrepancy between the VM availability metric and Resource Health from the Azure end, as there can be delays in collecting or reporting metrics from Azure resources sometimes. Where the metric shows a downtime, but Resource Health shows an ""Available"" status, potentially triggering an alert. This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now."
+"INC0157634","2025-06-18 22:17:36","SolarWinds ","Critical: Open: ALERT: Current packet loss for ttp-la-sdn-ecxs-01 is 70 %.Average Response time is 66 ms and is varying from 64 ms to 68 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-22 23:00:00","Upon validation, the device is up and running without any packet loss. No further issues were observed; hence, we are closing this ticket."
+"INC0157633","2025-06-18 22:05:13","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability vm-eis-dev-wus2-2","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-21 00:00:02","After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket."
+"INC0157632","2025-06-18 22:03:41","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability dev-adf-rpt01","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-21 00:00:01","After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket."
+"INC0157631","2025-06-18 22:01:55","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility dev-lims-svc1","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-21 00:00:04","After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket."
+"INC0157630","2025-06-18 20:55:42","Solarwinds-alerts","Alert for Stockholm - cameras went down","3 - Moderate","Closed","CDNA Stratogent","Sanjay C (C)","2025-06-21 17:00:01","HI Team,
+The camera is up and running.PFB."
+"INC0157629","2025-06-18 20:34:51","Microsoft Azure NoReply","Azure: Activated Severity: 0 vm availibility azpwqaslimapp1","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 22:00:01","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157628","2025-06-18 20:20:25","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM avaliblity_vm-eis-prod-wus2-2","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 22:00:01","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157627","2025-06-18 20:19:06","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM-Availability-vm-eis-prod-wus2-1","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 22:00:00","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157626","2025-06-18 19:48:29","Microsoft Azure NoReply","Azure: Activated Severity: 0 Vm Availability-LIMS-SQL-QA","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 21:00:02","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157625","2025-06-18 19:22:22","Microsoft Azure NoReply","Azure: Activated Severity: 0 Vm Availability-vm-eis-qa-wus2-2","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 21:00:01","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157624","2025-06-18 18:33:24","Microsoft Azure NoReply","Azure: Activated Severity: 0 Vm Availability vm-eis-dev-wus2-1","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 21:00:00","Hi Team,
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157574","2025-06-18 12:05:26","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility lims-sql-prd1","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-21 08:00:02","Upon reviewing the Azure Resource Health logs, the VM has consistently shown as ""Available''
+
+No further action is needed.
+
+Hence marking this as clousre."
+"INC0157710","2025-06-20 05:15:39","SolarWinds ","Critical : Open : volume 'STO-VCENTER01-C:\ Label: 3456DE69 ' on Node 'STO-VCENTER01' is in 'Unreachable ' stateAn issue on an object you are monitoring occur","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:00","Resolution notes copied from Parent Incident: Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157842","2025-06-21 17:10:06","SolarWinds ","Critical: Open - Application ""CareDx_Application_Monitor"" on ""vcenter01"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-23 18:00:00","Upon validation, the application CareDx_Application_Monitor on vcenter01 (10.125.143.10) is currently in a state ""Up"".
+
+Also, the component of this application ClarityLIMS is also up.
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0158372","2025-06-27 06:55:16","SolarWinds ","Warning: Open: ALERT: vcenter01 has exceptionaly high response time. Average Response Time is 633 ms and is varying from 15 ms to 6179 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-29 10:00:08","Hi Team,
+
+Upon checking we could see that ping status result is found to be normal and resulted in 0% packet loss however we don't see any exceptionally high response time. Average Response Time is 602 ms and is varying from 15 ms to 5694 ms.
+
+Thanks & Regards
+SINCHANA MN"
+"INC0158363","2025-06-27 02:45:17","Guna Sekhar (C)","CareDx || Network slide for deck June 2025","4 - Low","Closed","CDNA Stratogent Network","Ravi Kiran (C)","2025-06-29 07:00:01","Hi Team,
+Network team have updated the CAREDX weekly deck PPT, Hence resolving the ticket."
+"INC0158361","2025-06-27 02:20:38","Guna Sekhar (C)","Request to Pull SMTP Server Logs  – Server: prdlsmtp1bris","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-29 03:00:02","Hi Team ,
+
+As per request the  SMTP Server Logs  – Server: prdlsmtp1bris
+PFA 
+
+Thanks & regards 
+Sanjay s"
+"INC0158360","2025-06-27 02:03:13","Esther Nith","STARLims password Reset Request","1 - Critical","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 03:00:01","Tony has unlocked Esther's Starlims account, and the user Esther has confirmed that she is able to work as expected."
+"INC0158359","2025-06-27 01:49:27","Guna Sekhar (C)","Request to Pull SMTP Logs from SolarWinds – Server: prdlsmtp1bris","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-29 03:00:02","Hi Team ,
+
+As per request the  SMTP Logs from SolarWinds – Server: prdlsmtp1bris
+PFA 
+
+Thanks & regards 
+Sanjay s"
+"INC0158358","2025-06-27 01:51:09","SolarWinds ","Critical: Open - Application ""CareDx_Application_Monitor"" on ""vcenter01"" is currently UpThe application CareDx_Application_Monitor on vcenter01 (10.125.143.10","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-29 03:00:01","Hi Team ,
+
+Upon checking ,  Application ""CareDx_Application_Monitor"" on ""vcenter01"" is currently Up
+
+The application CareDx_Application_Monitor on vcenter01 (10.125.143.10) is currently in a state of ""Up"". 
+
+PFA 
+
+Thanks & Regards 
+sanjay s"
+"INC0158348","2025-06-26 16:45:41","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2003-2012 Se","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-28 19:00:00","The application is ""up and running fine,"" and the component physical and logical disk queue length came to normal. Additionally, we have received the recovery alert; further, no issues were found, hence closing this incident."
+"INC0158281","2025-06-26 08:20:35","SolarWinds ","Critical: Open - Application ""SSL Certificate Expiration Date"" on ""xq-prod.caredx.com"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-28 10:00:03","Hi Team,
+
+Upon checking, Application SSL Certificate Expiration Date on xq-prod.caredx.com (20.109.186.226) is currently in a state is Up
+
+SSL Certificate Expiration Date Monitor (Up)
+
+We could see that component status is UP, and the certificate is set to expire in the next 74 days
+
+Therefore, we are closing this ticket.
+
+Thanks,
+Swaroop MS
+"
+"INC0158245","2025-06-26 02:32:12","David Olague","CareDx || Access Request: Azure Sweden Jump Host & SolarWinds dashboard access","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-28 04:00:00","As requested by David,  worked with Daniel and provided the SolarWinds Dashboard access, and the Sweden jump host access was already there for him. Further, no action is required on this. Hence closing this ticket."
+"INC0158238","2025-06-25 21:39:31","David Olague","Enable the backup alert notification for the prod-lims servers","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-27 22:00:06","Hi Team,
+
+As requested, the backup alert notifications have been successfully configured for the following servers:
+
+Azpwprdslimapp1
+prd-lims-svc1
+vm-eis-prod-wus2-1
+vm-eis-prod-wus2-2
+
+Please find the attached document for your reference.
+
+Thanks & Regards,
+Sanjay S"
+"INC0158237","2025-06-25 21:05:45","Microsoft Azure NoReply","Azure: Activated Severity: 1 caredx deamon portal - health check status","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-27 22:00:05","Post restarting the app-care-portal-daemon-prod web service, the Daemon app portal is now healthy. Additionally, we've received a deactivation alert for the same. Further, no issues were found, hence marking this ticket for closure."
+"INC0158235","2025-06-25 19:06:41","Sanjay Kumar (C)","CareDx || Backup Configuration Check – prd-oktasyn01","3 - Moderate","Closed","CDNA Stratogent","Saubhadra Badajena (C)","2025-06-28 09:00:02","Backup has configured.
+
+52150
+Backup
+prd-oktasyn01
+10.125.143.194
+Jun 26, 2025 08:04:33
+--"
+"INC0158176","2025-06-25 10:00:59","Guna Sekhar (C)","Validate - Linux sever patches available on the server and patches pushed from azure auto patching","4 - Low","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-28 10:00:04","In Azure Update Manager for Linux servers, we have configured only Security and Update classifications. The ""Other"" category has not been enabled, which is why some third-party patches and certain packages are sometimes not selected during patching.
+
+This behavior is due to the way Linux repositories classify updates—it varies from server to server. In some cases, even security-related patches (like for grub) may appear under the ""Other"" classification if the repository does not properly tag them.
+
+Additionally, some repositories might include both security and third-party patches under a single classification, which causes further inconsistency in how Azure detects and categorizes them.
+
+To address this, we recommend enabling the ""Other"" classification in Azure Update Manager. This will ensure that all relevant patches, including third-party and misclassified security updates, are considered during deployment.
+
+Hence, closing the ticket."
+"INC0158141","2025-06-25 03:28:49","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2016 Services and","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-28 02:00:00","Upon checking,  Application ""Windows Server 2016 Services and Counters"" on ""Prometheus2"" is Up
+
+we found that the application and services are running properly.
+
+Logical Disk: Avg. Disk Queue Length(UP)
+Physical Disk: Avg. Disk Queue Length(UP)
+
+Therefore, we are closing this ticket."
+"INC0158129","2025-06-24 17:28:46","David Olague","CareDx || Azure Backup Jobs Details from Jan 2025.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-29 09:00:02","Azure team have attached the backup job details for mentioned servers.
+For the below server backup is not configured.
+ 
+lims-sql-prd1
+lims-sql-prd2
+prd-sox-rpt01"
+"INC0158379","2025-06-27 07:39:54","SolarWinds ","Critical: Open - Application ""Web links under outsys-prod"" on ""outsys-prod.xdxinc.net"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-30 08:00:00","Hi Team,
+
+Upon checking, Application Web links under outsys-prod on outsys-prod.xdxinc.net (10.125.144.16) is currently in a state is Up
+
+we found that the application and services are running properly.
+
+HTTP Monitor(Up)
+HTTP Monitor(Up)
+HTTP Monitor(Up)
+
+Therefore, we are closing this ticket.
+
+PFA-"
+"INC0158380","2025-06-27 07:42:58","SolarWinds ","Critical: ALERT: TOOLS-DEV-2016 rebooted at 6/27/2025 7:41:00 AM","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-29 20:00:02","After reviewing the system logs, it was discovered that the VM was rebooted by the user ""XDXINC\Bwemhoff."" 
+The server is up and running fine, and all automatic services are operating normally. Hence closing this ticket."
+"INC0158499","2025-06-29 19:29:56","Sanjay Kumar (C)","Outsys-prod  reboot activity on 29-06-2025","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-07-02 00:00:04","Hello Team,
+
+Outsys-prod server has been rebooted successfully, post reboot verified the functionality it is working as expected.
+
+Please find the attached Pre and Post evidances
+
+Thanks & regards 
+Sanjay s"
+"INC0158498","2025-06-29 19:19:36","SolarWinds ","Critical: ALERT: outsys-prod.xdxinc.net rebooted at 6/29/2025 7:16:00 PM","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-07-02 00:00:03","Resolution notes copied from Parent Incident: Hello Team,
+
+Outsys-prod server has been rebooted successfully, post reboot verified the functionality it is working as expected.
+
+Please find the attached Pre and Post evidances
+
+Thanks & regards 
+Sanjay s"
+"INC0158497","2025-06-29 19:17:34","SolarWinds ","Critical : Open : Node ""outsys-prod.xdxinc.net"" IP ""10.125.144.16"" is ""Down""  Alert description: Node ""outsys-prod.xdxinc.net""  IP ""10.125.144.16""  is Down","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-07-02 00:00:02","Resolution notes copied from Parent Incident: Hello Team,
+
+Outsys-prod server has been rebooted successfully, post reboot verified the functionality it is working as expected.
+
+Please find the attached Pre and Post evidances
+
+Thanks & regards 
+Sanjay s"
+"INC0158496","2025-06-29 19:16:39","SolarWinds ","Critical: Open: ALERT: Current packet loss for outsys-prod.xdxinc.net is 80 %.Average Response time is 23 ms and is varying from 20 ms to 27 ms.","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-07-02 00:00:01","Resolution notes copied from Parent Incident: Hello Team,
+
+Outsys-prod server has been rebooted successfully, post reboot verified the functionality it is working as expected.
+
+Please find the attached Pre and Post evidances
+
+Thanks & regards 
+Sanjay s"
+"INC0158495","2025-06-29 17:44:31","SolarWinds ","Critical: ALERT: PRD-SCRNTSVR-1 rebooted at 6/29/2025 5:43:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-07-02 02:00:00","Upon checking the SolarWinds, the sever is up and running fine
+The server was rebooted as part of patching activity.
+Also received closure alert "
+"INC0158494","2025-06-29 15:58:31","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2003-2012 Serv","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-07-01 17:00:01","
+Upon Verifying, Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is ""UP""
+
+The application Windows Server 2003-2012 Services and Counters on HALFDOME (10.50.16.217) is ""UP""
+
+The following is a list of components in this application presently is ""UP""
+
+% Processor Time (UP)"
+"INC0158491","2025-06-28 18:21:49","Anna Thomas","Care Dx From: Anna Thomas Telephone: 352-359-1981 I Am Getting A+","1 - Critical","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-30 21:00:00","Issue has been resolved  by scot and as per David confirmation we are moving this ticket to resolved state."
+"INC0158475","2025-06-28 03:57:25","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility || azpwlabslimapp1","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 05:00:00","The availability alert was due to a rebooted created by Kenny.
+
+No further action required as this reboot was planned activity, the server is up and running fine.
+
+Hence marking the ticket to closure."
+"INC0158474","2025-06-28 03:22:47","SolarWinds ","Warning : Open:-Disk space low on host  ""ussj-prd-stngry"" IP Address ""10.50.16.204"" for Volume ""G:\ Label:New Volume  Serial Number FE90E781"". Free space is ""14","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-30 06:00:00","As confirmed by Migdad, we have enough space now and also alerts happens to be cleared. Hence closing the ticket."
+"INC0158473","2025-06-28 02:07:47","SolarWinds ","Critical: Open - Application ""Linux Memory Monitoring Perl"" on ""iil-dev.xdxinc.net"" is currently WarningThe application Linux Memory Monitoring Perl on iil-de","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-30 05:00:00","Upon validation the application ""Linux Memory Monitoring Perl"" on ""iil-dev.xdxinc.net"" is currently up and running fine.
+
+The component of this application Free memory (kB) is also up.
+
+As we received closure alert from SolarWinds, no further action required. Hence, marking the ticket for closure."
+"INC0158471","2025-06-27 22:59:22","Dharma Sanjyal","Unable to Login to SAX","1 - Critical","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-30 00:00:00","The SAX application returned to normal operation without any troubleshooting, which may have been caused by temporary network latency. User has confirmed the same over the mail however verified the same with the user over the call and got confirmation that it is working as expected now considering the scenario ticket is good to be closed."
+"INC0158450","2025-06-27 14:22:59","SolarWinds ","Critical: ALERT: azpwlabslimapp1 rebooted at 6/27/2025 2:20:00 PM","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-30 04:00:00","Hi team,
+
+As per Kenny's update, this is a planned reboot.
+
+Best regards,
+Mahehs C"
+"INC0158425","2025-06-27 11:29:22","SolarWinds ","Critical: ALERT: Diane rebooted at 6/21/2025 12:26:00 PM","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 13:00:01","We have identified that the issue was due to the default gateway being unreachable. After performing troubleshooting, we restored the connectivity by resolving the gateway reachability problem.
+We are now able to ping and remotely access the servers without any issues
+No further action is needed.
+Hence marking this as closure.
+PFA"
+"INC0158408","2025-06-27 09:40:38","SolarWinds ","Critical : Open : Node ""Diane"" IP ""10.100.100.146"" is ""Down""  Alert description: Node ""Diane""  IP ""10.100.100.146""  is DownAlert Generated time  : 6/27/202","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 13:00:00","We have identified that the issue was due to the default gateway being unreachable. After performing troubleshooting, we restored the connectivity by resolving the gateway reachability problem.
+We are now able to ping and remotely access the servers without any issues.
+No further action is needed.
+Hence marking this as closure.
+
+Thanks,
+Swaroop MS"
+"INC0158404","2025-06-27 09:27:01","SolarWinds ","Critical: ALERT: STO-ODIN rebooted at 6/21/2025 11:47:00 AM","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-29 20:00:00","On investigating, the ManageEngine has initiated the restart of computer STO-ODIN on behalf of user NT AUTHORITY\SYSTEM on 21-06-2025 as a part of patching activity and currently it is ""up and running,"" hence reducing the ticket priority and received this alert now due to some SolarWinds glitches. Further, no issues were found, hence closing this ticket."
+"INC0158097","2025-06-24 12:13:53","SolarWinds ","Critical: Open: ALERT: Current packet loss for HQ-WiLine-GW is 50 %.Average Response time is 24 ms and is varying from 24 ms to 25 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-26 19:00:02","As verified from the solarwinds HQ-WiLine-GW is up.
+
+And able to ping without any ping loss, no further action required, moving ticket to closure."
+"INC0158034","2025-06-24 07:53:41","SolarWinds ","Critical : Open : Node ""SQL01"" IP ""10.50.16.216"" is ""Down""  Alert description: Node ""SQL01""  IP ""10.50.16.216""  is DownAlert Generated time  : 6/24/2025 7:","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-26 19:00:00","As update from Chris server has been turned off by him.
+
+hence moving ticket to closure.
+"
+"INC0157848","2025-06-21 19:39:05","Dharma Sanjyal","AP samples not mapping to Htx plates","1 - Critical","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-23 22:00:00","Samples from cDNA plates are now abled to be mapped after the 2 plates were staged separately on a new run using new HTx plates."
+"INC0157846","2025-06-21 18:42:35","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability  || azwe-dev-azdf04","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-23 19:00:00","We have received a VM availability alert for ""azwe-dev-azdf04"" IP address ""10.50.56.5"".
+
+Upon checking from Azure portal, This virtual machine was paused for 1.637000 seconds due to a memory-preserving Live Migration operation.
+The VM is currently in ""Available"" state. Therefore, we are closing this incident.
+"
+"INC0157835","2025-06-21 15:10:04","SolarWinds ","Critical : Open : volume 'Sudersand-E:\ Label:Temporary Storage EA820BA2 ' on Node 'Sudersand' is in 'Unknown ' stateAn issue on an object you are monitoring","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-23 17:00:00","Tested the WMI connectivity test validation is passed vice versa, hence changed the Drive S.No  ticket is good to be closed."
+"INC0157826","2025-06-21 12:25:55","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability_azie-bioseq01","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-23 18:00:01","Upon validation, alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+The server was rebooted 257 days back. as there was no real downtime observed hence marking the ticket to closure."
+"INC0157825","2025-06-21 12:18:19","Microsoft Azure NoReply","Alert for Stockholm - New DHCP server detected","3 - Moderate","Closed","CDNA Stratogent","Riyas Muhammed (C)","2025-06-26 11:00:03","The DHCP server 10.100.100.12 is not rogue; it is intentionally configured as the DHCP server for VLAN 14 (Security Camera) via DHCP Relay.No action required
+
+The alert was triggered likely because this is a newly added DHCP server or was recently detected for the first time by the switch.
+"
+"INC0157811","2025-06-21 09:24:52","SolarWinds ","Critical: ALERT: vm-it-jumphost rebooted at 6/21/2025 9:22:00 AM","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-25 08:00:03","
+The reboot was initiated as a part of monthly maintenance of Prod critical Sweden Servers—Azure Auto Patch (Security) & ManageEngine (Third-Party).
+
+No Further action required as this is a planned activity.
+
+Hence marking ticket to closure."
+"INC0157810","2025-06-21 02:07:34","SolarWinds ","Critical: Open - Application ""Linux Memory Monitoring Perl"" on ""iil-dev.xdxinc.net"" is currently WarningThe application Linux Memory Monitoring Perl on iil-de","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-23 03:00:00","The application is ""up and running fine,"" and the component ""Free memory (kB)"" came to normal. Additionally, we have received the recovery alert; further, no issues were found, hence closing this incident."
+"INC0157804","2025-06-20 22:18:41","SolarWinds ","Critical : Open : Node ""ttp-la-sdn-ecxs-01"" IP ""10.98.98.98"" is ""Down""  Alert description: Node ""ttp-la-sdn-ecxs-01""  IP ""10.98.98.98""  is DownAlert Genera","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-22 23:00:01","Upon Verifying from SolarWinds, Node ""ttp-la-sdn-ecxs-01"" IP ""10.98.98.98"" is ""UP"" .
+
+Additionally, we have received cleared alert.
+
+Moving the ticket to Closure.
+"
+"INC0157803","2025-06-20 20:17:43","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibity azpwprdslimapp1","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-23 19:00:01","
+ However, upon checking we could see that the VM is Up and running. Resource Health is Available and, we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+ This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+
+"
+"INC0157798","2025-06-20 17:46:15","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibility  lims-sql-prd1","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-22 18:00:01","Hi Team ,
+
+Upon checking, the lims-sql-prd1 servers is up and running fine. 
+
+There is no reboot. 
+
+PFA 
+
+Thanks & Regards 
+Sanjay s"
+"INC0157797","2025-06-20 15:48:15","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibiltiy  LIMS-SQL-DEVLAB","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-22 17:00:00","
+Upon checking, the server is up and running fine.
+
+There is no reboot from the server end. "
+"INC0157722","2025-06-20 06:39:04","SolarWinds ","Critical : Open : Node ""SFO-ORADBS02a"" IP ""10.50.16.235"" is ""Down""  Alert description: Node ""SFO-ORADBS02a""  IP ""10.50.16.235""  is DownAlert Generated time","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-22 08:00:00","On checking the server from the Azure portal, the server is in stopped state, which is done by cremy@caredx.com as planned activity hence reducing the ticket priority and closing this incident.
+ 
+PFA
+"
+"INC0157721","2025-06-20 06:38:03","SolarWinds ","Critical: Open: ALERT: Current packet loss for SFO-ORADBS02a is 70 %.Average Response time is 0 ms and is varying from 0 ms to 1 ms.","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-22 08:00:03","On checking the server from the Azure portal, the server is in stopped state, which is done by cremy@caredx.com as planned activity hence reducing the ticket priority and closing this incident.
+ 
+PFA"
+"INC0157720","2025-06-20 06:29:03","SolarWinds ","Critical : Open : Node ""BenQtype-2"" IP ""10.50.16.236"" is ""Down""  Alert description: Node ""BenQtype-2""  IP ""10.50.16.236""  is DownAlert Generated time  : 6/","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-22 08:00:03","On checking the server from the Azure portal, the server is in a stopped state, which was done by cremy@caredx.com as planned activity, hence reducing the ticket priority and closing this incident."
+"INC0157718","2025-06-20 06:28:03","SolarWinds ","Critical: Open: ALERT: Current packet loss for BenQtype-2 is 80 %.Average Response time is 0 ms and is varying from 0 ms to 0 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-22 08:00:04","Resolution notes copied from Parent Incident: On checking the server from the Azure portal, the server is in a stopped state, which was done by cremy@caredx.com as planned activity, hence reducing the ticket priority and closing this incident.
+Incident 'INC0157718' closed based on closure of task 'INC0157720'
+
+On checking the server from the Azure portal, the server is in a stopped state, which was done by cremy@caredx.com as planned activity, hence reducing the ticket priority and closing this incident."
+"INC0157850","2025-06-21 22:38:18","Dharma Sanjyal","Unable to  retrieve SAX result for Assay plates","1 - Critical","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-24 00:00:00","As confirmed by the user, he is able to get results from SAX post Swair from LIMs Team made changes on the database. Changed the status of the plate, corrected the format to uppercase for all the plates. 
+
+Closing the ticket."
+"INC0157854","2025-06-22 04:02:56","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2003-2012 Serv","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-24 06:00:00","The application is ""up and running fine,"" and the component % Processor Time came to normal. Additionally, we have received the recovery alert; further, no issues were found, hence closing this incident."
+"INC0158033","2025-06-24 07:52:40","SolarWinds ","Critical: Open: ALERT: Current packet loss for SQL01 is 80 %.Average Response time is 0 ms and is varying from 0 ms to 0 ms.","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-26 19:00:01","Resolution notes copied from Parent Incident: As update from Chris server has been turned off by him.
+
+hence moving ticket to closure.
+
+Incident 'INC0158033' closed based on closure of task 'INC0158034'
+
+As update from Chris server has been turned off by him.
+
+hence moving ticket to closure.
+"
+"INC0158031","2025-06-24 07:38:03","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2003-2012 Se","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-26 09:00:01","Upon checking, Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is Up
+
+we found that the application and services are running properly.
+
+Logical Disk: Avg. Disk Queue Length(Up)
+Physical Disk: Avg. Disk Queue Length(Up)
+
+Therefore, we are closing this ticket."
+"INC0158017","2025-06-23 20:58:53","Microsoft Azure NoReply","Azure: Activated Severity: 1 caredx deamon portal - health check status","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-25 22:00:01","Post restarting the app-care-portal-daemon-prod web service, the Daemon app portal is now healthy. Additionally, we've received a deactivation alert for the same. Further, no issues were found, hence marking this ticket for closure."
+"INC0157978","2025-06-23 12:56:59","Guna Sekhar (C)","Remove  decommissioned servers from monitoring.","4 - Low","Closed","CDNA Stratogent","Anushree V (C)","2025-06-26 05:00:00","Hi Team,
+
+As per the request, we have removed the decommissioned servers from monitoring."
+"INC0157963","2025-06-23 11:50:59","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability dev-adf-rpt01","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-25 13:00:03","We had received VM Availability alert for dev-adf-rpt01
+
+ However, upon checking we could see that the VM is Up and running. Resource Health is Available, and we don't have access to login and check further could see the event was initiated from inside the machine no action required at this point of time. 
+ 
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+ 
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+"
+"INC0157950","2025-06-23 10:55:28","SolarWinds ","Critical: Open - Application ""Web links under outsys-prod"" on ""outsys-prod.xdxinc.net"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-25 12:00:00","Upon Validation, the application Web links under outsys-prod on outsys-prod.xdxinc.net (10.125.144.16) is currently in a state up.
+
+Also, the component of this application HTTP Monitor is also up.
+
+As we received closure from SolarWinds, no further action required. Hence marking the ticket for closure."
+"INC0157910","2025-06-23 07:54:02","SolarWinds ","Critical: ALERT: bioseq01 rebooted at 5/4/2025 6:45:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-25 09:00:04","As checked from both the OS end and the Azure end, we can see that the uptime is 49 days, with no reboot events. Seems like a false alert.
+
+Additionally, the alert has been cleared; hence, closing the ticket."
+"INC0157907","2025-06-23 07:52:13","SolarWinds ","Critical: Open: ALERT: Current packet loss for iil-dev.xdxinc.net is 100 %.Average Response time is -1 ms and is varying from -2 ms to -2 ms.","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-25 09:00:03","Hi Team,
+
+Upon checking, we are able to ping the server and found no loss.
+
+No further action is needed.
+
+Hence closing this ticket to closure.
+
+PFA
+
+"
+"INC0157870","2025-06-23 04:10:20","Guna Sekhar (C)","Verification of Sweden firewall were added to monitoring","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:06","John said that he is aware of it. He will take care of it and can be ignored for now.
+
+No further action is needed.
+
+Hence marking this ticket to closure."
+"INC0157865","2025-06-22 22:11:59","SolarWinds ","Critical: Open: ALERT: Current packet loss for ttp-ms-sdn-ecxs-01 is 70 %.Average Response time is 76 ms and is varying from 69 ms to 90 ms.","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-25 03:00:00","Upon verifying from SolarWinds, node ttp-ms-sdn-ecxs-01 is up.
+
+Additionally, we received cleared alerts from SolarWinds,
+
+Moving the ticket to closure."
+"INC0157864","2025-06-22 21:18:26","SolarWinds ","Critical: ALERT: SFOSAVIOM01 rebooted at 6/22/2025 9:16:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-25 08:00:00","Hi Team,
+
+Due to patching activity, server got rebooted.
+Moving the ticket to closure."
+"INC0157860","2025-06-22 17:27:42","SolarWinds ","Critical: Open: ALERT: Current packet loss for ssfdc01 is 60 %.Average Response time is 33 ms and is varying from 28 ms to 41 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-25 02:00:00","We are able to ping ssfdc01 with 0% loss,
+
+additionally, we received cleared alert. moving the ticket to closure."
+"INC0157858","2025-06-22 16:29:40","SolarWinds ","Critical: ALERT: BIRDROCK2019 rebooted at 6/22/2025 4:28:00 PM","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-25 08:00:04","We received the reboot alert for BIRDROCK2019due to the patching activity.
+Hence the server is up and running firn.
+
+Closing the ticket.
+"
+"INC0157857","2025-06-22 16:23:34","SolarWinds ","Critical: ALERT: ussj-prd-stngry rebooted at 6/22/2025 4:22:00 PM","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-25 08:00:02","We received the reboot alert for ussj-prd-stngry due to the patching activity.
+Hence the server is up and running fine.
+
+Closing the ticket."
+"INC0157855","2025-06-22 07:07:57","SolarWinds ","Critical: Open - Application ""Windows Server 2019 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2019 Services and C","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-24 08:00:01","The application is ""up and running fine,"" and the component % Processor Time came to normal. Additionally, we have received the recovery alert; further, no issues were found, hence closing this incident."
+"INC0157711","2025-06-20 05:21:06","SolarWinds ","Critical : Open : volume 'YellowDC01-C:\ Label: EA7F372F ' on Node 'YellowDC01' is in 'Unreachable ' stateAn issue on an object you are monitoring occurred at","5 - Planning","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-29 10:00:07","Hi Team,
+
+Server is going to be decommission, no further action is needed.
+
+Hence marking this as closure.
+
+ REF-CHG0032745 - Decommissioning of DC server || YellowDC01
+Incident 'INC0157711' closed based on closure of task 'INC0157705'
+
+Following John's troubleshooting, the alerts have cleared, and the devices are back under monitoring in SolarWinds.
+
+No further action is needed.
+
+Hence closing this ticket.
+
+PFA
+"
+"INC0157568","2025-06-18 11:32:01","Guna Sekhar (C)","Multiple disk Unknown for the server tst-labfiles1.","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-25 00:00:00","Hi Team,
+
+Upon verification, WMI connectivity is functioning as expected:
+
+WMI connection from tst-labfiles1 to the SolarWinds servers was successful.
+WMI test from SolarWinds servers to tst-labfiles1 also completed successfully.
+The service account SVC_SolarWinds is confirmed to be a member of the Administrators group on both ends.
+Additionally, the WMI test from within the SolarWinds console was successful.
+
+No issues were identified during the checks.
+
+PFA .
+
+Thanks & Regards
+sanjay s"
+"INC0156653","2025-06-08 02:13:02","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is currently CriticalThe application Windows Server 2003-2012 S","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-10 03:00:01","The application Windows Server 2003-2012 Services and Counters on Prometheus2 (10.50.16.223) is ""UP"".
+
+The following is a list of components in this application is ""UP""
+
+Logical Disk: Avg. Disk Queue Length(UP)
+Physical Disk: Avg. Disk Queue Length(UP)
+
+PFA
+
+Additionally, we received cleared alert, moving the ticket to closure.
+
+"
+"INC0156671","2025-06-09 06:17:45","SolarWinds ","Critical : Open : Node ""SRVR-PHK-2016"" IP ""10.50.16.208"" is ""Down""  Alert description: Node ""SRVR-PHK-2016""  IP ""10.50.16.208""  is DownAlert Generated time","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-11 08:00:00","Got an update from Chris it was powered off by him has confirmed over the mail communication we are good to close the ticket."
+"INC0156736","2025-06-09 12:14:12","Oyuna Batbayar","Clarity Aliqout check finish step error","5 - Planning","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-12 11:00:01","Closing the ticket as duplicate of - INC0156739 - Clarity Aliqout check finish step error"
+"INC0156739","2025-06-09 12:24:53","Kaitlyn Arribas-Layton","Clarity Aliqout check finish step error","1 - Critical","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-11 14:00:00","The user was able to finish the aliquot check step and confirmed the same over email. Hence closing the ticket."
+"INC0156740","2025-06-09 12:26:45","Puneeth Nagaraj (C)","Re: Clarity Aliqout check finish step error","5 - Planning","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-11 14:00:02","Resolution notes copied from Parent Incident: The user was able to finish the aliquot check step and confirmed the same over email. Hence closing the ticket.
+Incident 'INC0156740' closed based on closure of task 'INC0156739'
+
+The user was able to finish the aliquot check step and confirmed the same over email. Hence closing the ticket."
+"INC0156743","2025-06-09 12:49:54","Puneeth Nagaraj (C)","Re: Clarity Aliqout check finish step error","5 - Planning","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-11 14:00:02","Resolution notes copied from Parent Incident: The user was able to finish the aliquot check step and confirmed the same over email. Hence closing the ticket.
+Incident 'INC0156743' closed based on closure of task 'INC0156739'
+
+The user was able to finish the aliquot check step and confirmed the same over email. Hence closing the ticket."
+"INC0156788","2025-06-09 20:33:16","SolarWinds ","Critical: Open: ALERT: Current packet loss for fml-mdf11-fw1-f1120-01 is 90 %.Average Response time is 214 ms and is varying from 214 ms to 214 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-11 22:00:02","We are able to successfully ping the node with 0% packet loss
+
+Also, the node status is up in SolarWinds Console.
+
+Hence reducing the ticket and marking the ticket to closure as the alert may be due the high latency between the node and the SolarWinds server."
+"INC0156789","2025-06-09 20:33:20","SolarWinds ","Critical: Open: ALERT: Current packet loss for fml-mdf11-acc-ms250-04 is 60 %.Average Response time is 218 ms and is varying from 211 ms to 230 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-11 22:00:01","We are able to successfully ping the node with 0% packet loss
+
+Also, the node status is up in SolarWinds Console.
+
+Hence reducing the ticket and marking the ticket to closure as the alert may be due the high latency between the node and the SolarWinds server."
+"INC0156790","2025-06-09 20:33:24","SolarWinds ","Critical: Open: ALERT: Current packet loss for Fremantle ISP is 50 %.Average Response time is 208 ms and is varying from 208 ms to 210 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-11 22:00:00","We are able to successfully ping the node with 0% packet loss
+
+Also, the node status is up in SolarWinds Console.
+
+Hence reducing the ticket and marking the ticket to closure as the alert may be due the high latency between the node and the SolarWinds server."
+"INC0156670","2025-06-09 06:16:05","SolarWinds ","Critical: Open: ALERT: Current packet loss for SRVR-PHK-2016 is 50 %.Average Response time is 0 ms and is varying from 0 ms to 1 ms.","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-11 08:00:01","Resolution notes copied from Parent Incident: Got an update from Chris it was powered off by him has confirmed over the mail communication we are good to close the ticket.
+Incident 'INC0156670' closed based on closure of task 'INC0156671'
+
+Got an update from Chris it was powered off by him has confirmed over the mail communication we are good to close the ticket."
+"INC0156664","2025-06-08 21:08:16","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""Jaws"" is currently CriticalThe application Windows Server 2016 Services and Count","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-10 22:00:01","Upon validation, the application ""Windows Server 2016 Services and Counters"" on ""Jaws"" is currently up and running fine.
+
+Also, the components of this application, Physical Disk: Avg. Disk Queue Length and Logical Disk: Avg. Disk Queue Length are up.
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0156654","2025-06-08 07:48:07","SolarWinds ","Critical: Open - Application ""https://caredxportal.com"" on ""caredxportal.com"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-10 08:00:01","The application https://caredxportal.com on caredxportal.com (13.107.213.40) is ""UP"".
+
+The following is a list of components in this application is ""UP"".
+
+https://caredxportal.com(UP)
+
+Additionally, we received cleared alert, moving the ticket to closure."
+"INC0156655","2025-06-08 15:16:11","SolarWinds ","Critical: Open: ALERT: Current packet loss for outsys-prod.xdxinc.net is 80 %.Average Response time is 25 ms and is varying from 25 ms to 25 ms.","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-10 16:00:02","The server was rebooted as part of the weekly planned reboot activity, its up and running fine now, closing the ticket.
+Incident 'INC0156655' closed based on closure of task 'INC0156657'
+
+The server was rebooted as part of the weekly planned reboot activity, its up and running fine now, closing the ticket."
+"INC0156656","2025-06-08 15:17:13","SolarWinds ","Critical : Open : Node ""outsys-prod.xdxinc.net"" IP ""10.125.144.16"" is ""Down""  Alert description: Node ""outsys-prod.xdxinc.net""  IP ""10.125.144.16""  is Down","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-10 16:00:00","The server was rebooted as part of the weekly planned reboot activity, its up and running fine now, closing the ticket."
+"INC0156657","2025-06-08 15:18:41","SolarWinds ","Critical: ALERT: outsys-prod.xdxinc.net rebooted at 6/8/2025 3:15:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-10 16:00:00","The server was rebooted as part of the weekly planned reboot activity, its up and running fine now, closing the ticket."
+"INC0156660","2025-06-08 17:22:50","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM availiabity || vm-mappro-mms-1-prod","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-10 18:00:00","Since we don't have access to RDP on the server, upon checking from the Azure portal, it is confirmed that due to patching activity, the server has been rebooted; however, currently it is up and running fine, hence moving this ticket for closure."
+"INC0156661","2025-06-08 17:27:26","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM availabity || vm-mappro-rpc-1-prod","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-10 18:00:01","We could see that mappro servers are configured in Azure update manager to be scheduled to Run, hence patches have been deployed on vm-mappro-rpc-1-prod. Closing the ticket as the resource health is Available now."
+"INC0156662","2025-06-08 17:28:30","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM availabity || vm-mappro-hybrid-worker-prod","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-10 18:00:01","Since we don't have access to RDP on the server, upon checking from the Azure portal, it is confirmed that due to patching activity, the server has been rebooted; however, currently it is up and running fine, hence moving this ticket for closure."
+"INC0156663","2025-06-08 19:02:41","SolarWinds ","Critical: Open - Application ""SSL Certificate"" on ""STO-VCENTER01"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-10 22:00:00","Upon validation, the application SSL Certificate on STO-VCENTER01 (10.100.100.230) is currently in a state ""up"".
+
+Also, the component of the application HTTPS Monitor is up.
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0156791","2025-06-09 20:33:29","SolarWinds ","Critical: Open: ALERT: Current packet loss for fml-mdf11-acc-ms250-03 is 80 %.Average Response time is 216 ms and is varying from 213 ms to 220 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-11 22:00:02","We are able to successfully ping the node with 0% packet loss
+
+Also, the node status is up in SolarWinds Console.
+
+Hence reducing the ticket and marking the ticket to closure as the alert may be due the high latency between the node and the SolarWinds server."
+"INC0156792","2025-06-09 20:33:33","SolarWinds ","Critical : Open : Node ""fml-mdf11-fw1-f1120-01"" IP ""192.168.1.249"" is ""Down""  Alert description: Node ""fml-mdf11-fw1-f1120-01""  IP ""192.168.1.249""  is Down","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-11 21:00:00","We are able to successfully ping the node with 0% packet loss
+
+Also, the node status is up in SolarWinds Console.
+
+Hence reducing the ticket and marking the ticket to closure as the alert may be due the high latency between the node and the SolarWinds server."
+"INC0156799","2025-06-10 02:09:18","SolarWinds ","Critical: Open - Application ""Linux Memory Monitoring Perl"" on ""iil-dev.xdxinc.net"" is currently WarningThe application Linux Memory Monitoring Perl on iil-de","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-14 03:00:00","Upon verifying the URL in SolarWinds, we found that Application ""Linux Memory Monitoring Perl"" on ""iil-dev.xdxinc.net"" up and running fine.
+All the application and services up and running fine .
+No further action required.
+Since the alert is also cleared, we are good to close the ticket."
+"INC0157069","2025-06-12 13:58:04","Microsoft Azure NoReply","Azure: Activated Severity: 0 Available memory_Critical vm-eis-dev-wus2-1","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 17:00:02","The available memory has been increased to 68%. 
+
+Additionally we have received the recovery alert further no issues were found hence closing this ticket."
+"INC0157070","2025-06-12 14:12:16","SolarWinds ","Critical: Open: ALERT: Current packet loss for azsc-prd-dc01 is 70 %.Average Response time is 164 ms and is varying from 163 ms to 165 ms.","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 17:00:01","We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+ 
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0157072","2025-06-12 14:13:15","SolarWinds ","Critical : Open : Node ""azsc-prd-dc01"" IP ""10.50.134.4"" is ""Down""  Alert description: Node ""azsc-prd-dc01""  IP ""10.50.134.4""  is DownAlert Generated time","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 17:00:01","Resolution notes copied from Parent Incident: We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+ 
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0157075","2025-06-12 14:33:17","SolarWinds ","Critical : Open : volume 'azsc-prd-dc01-D:\ Label:Temporary Storage 8A0A5D37 ' on Node 'azsc-prd-dc01' is in 'Unknown ' stateAn issue on an object you are mon","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-16 12:00:01","The D: drive serial number has been updated from 8A0A5D37 to 76DE8240.
+
+update the serial number in the SolarWinds console. no further action required.
+
+Hence marking the ticket to closure."
+"INC0157076","2025-06-12 14:33:21","SolarWinds ","Critical : Open : volume 'azsc-prd-dc01-C:\ Label:Windows 6A22D017 ' on Node 'azsc-prd-dc01' is in 'Unknown ' stateAn issue on an object you are monitoring oc","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 20:00:02","Upon checking the  volume 'azsc-prd-dc01-C:\ Label:Windows 6A22D017 ' on Node 'azsc-prd-dc01' is same in the solarwind 
+Hence we good  to close this INC "
+"INC0157080","2025-06-12 14:54:18","SolarWinds ","Critical: Open: ALERT: Current packet loss for ttp-ms-sdn-ecxs-01 is 70 %.Average Response time is 81 ms and is varying from 80 ms to 82 ms.","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 16:00:02","We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+The alert may be due to a small disruption between SolarWinds and the node.
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0157081","2025-06-12 14:55:17","SolarWinds ","Critical : Open : Node ""ttp-ms-sdn-ecxs-01"" IP ""10.97.11.149"" is ""Down""  Alert description: Node ""ttp-ms-sdn-ecxs-01""  IP ""10.97.11.149""  is DownAlert Gene","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 16:00:02","Resolution notes copied from Parent Incident: We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+The alert may be due to a small disruption between SolarWinds and the node.
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0157092","2025-06-12 20:07:04","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2016 Services and","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-15 13:00:07","Upon checking  Application ""Windows Server 2016 Services and Counters"" on ""Prometheus2"" is currently UP
+
+Logical Disk: Avg. Disk Queue Length(UP)
+Physical Disk: Avg. Disk Queue Length(UP)
+"
+"INC0157023","2025-06-12 09:27:06","Guna Sekhar (C)","Share CareDx  active User list from starogent","4 - Low","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-14 17:00:02","The list of active users from Stratogent has been shared.
+
+Hence, closing the ticket."
+"INC0156997","2025-06-12 03:24:44","David Olague","Azure Patching Process – Step-by-Step Documentation","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-14 04:00:00","As per david request, the step-by-step documentation of the actions taken during the patching process from the Azure end has been prepared.
+Please find the attached document for your reference.
+"
+"INC0156823","2025-06-10 09:10:35","SolarWinds ","Critical : Open : volume 'prd-oktasyn01-C:\ Label: 861F56BC ' on Node 'prd-oktasyn01' is in 'Unknown ' stateAn issue on an object you are monitoring occurred","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-26 19:00:02","Resolution notes copied from Parent Incident: The svc account is not part of the administrator group, as discussed the solarwinds account would need admin privilege for the WMI test to pass. As of now, the account can be added to only Performance monitor Group to monitor the node. As the VM is up and functional and no issues from server end, closing the ticket.
+Incident 'INC0156823' closed based on closure of task 'INC0156824'
+
+The svc account is not part of the administrator group, as discussed the solarwinds account would need admin privilege for the WMI test to pass. As of now, the account can be added to only Performance monitor Group to monitor the node. As the VM is up and functional and no issues from server end, closing the ticket."
+"INC0156824","2025-06-10 09:10:39","SolarWinds ","Critical : Open : volume 'prd-oktasyn01-E:\ Label:Data A4032B54 ' on Node 'prd-oktasyn01' is in 'Unknown ' stateAn issue on an object you are monitoring occur","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-26 19:00:01","The svc account is not part of the administrator group, as discussed the solarwinds account would need admin privilege for the WMI test to pass. As of now, the account can be added to only Performance monitor Group to monitor the node. As the VM is up and functional and no issues from server end, closing the ticket."
+"INC0156902","2025-06-10 22:21:18","SolarWinds ","CareDx || Alert for Fremantle - Clients fail to connect to the wireless network","3 - Moderate","Closed","CDNA Stratogent Network","Sanjay C (C)","2025-06-18 07:00:02","Hi Team,
+We see that there is no issue seen on the device authentication and all the connectivity is 100% success rate, hence closing the ticket."
+"INC0156907","2025-06-11 04:06:23","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2003-2012 Serv","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-13 05:00:03","The application Windows Server 2003-2012 Services and Counters on HALFDOME (10.50.16.217) is""UP""
+The following is a list of components in this application is ""UP"".
+
+% Processor Time(UP)
+
+Additionally, we received cleared alert from SolarWinds, Moving the ticket to closure."
+"INC0156933","2025-06-11 09:04:45","SolarWinds ","Critical: Open - Application ""CareDx_Application_Monitor"" on ""vcenter01"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-13 10:00:00","we can see the application status is Up and alert is also cleared from solarwinds. Hence closing the ticket."
+"INC0156942","2025-06-11 09:41:29","SolarWinds ","Critical: Open - Application ""Windows Server 2019 Services and Counters"" on ""HALFDOME"" is currently WarningThe application Windows Server 2019 Services and Co","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-14 02:00:00","Upon review, the % Processor Time counter is functioning normally. No further action is required.
+Therefore, we are closing this ticket."
+"INC0156975","2025-06-11 13:47:44","Microsoft Azure NoReply","Alert 'Disk_usage_warning_azwe-prd-dc01' was fired","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-14 12:00:02","Hi Team,
+
+Post cleanup, the free space has been increased to 57%.
+
+No further action is needed.
+
+Hence marking this as closure.
+"
+"INC0156993","2025-06-12 00:26:15","David Olague","Security patches on prd-sox-prt01","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-14 03:00:00","Hello David,
+
+We have successfully patched the server from the Azure end, and post-reboot the server is up and running fine.
+
+PFA
+
+
+Thanks & Regards
+sanjay s
+"
+"INC0157093","2025-06-12 20:36:33","SolarWinds ","Critical: Open: ALERT: Current packet loss for outsys-prod.xdxinc.net is 90 %.Average Response time is 20 ms and is varying from 20 ms to 20 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-15 03:00:00","Upon checking the node outsys-prod, the server is up and running fine, able to ping server with 0% Loss,
+Also received closure mail from SolarWinds."
+"INC0156643","2025-06-07 06:52:40","SolarWinds ","Warning: Open: ALERT: vcenter01 has exceptionaly high response time. Average Response Time is 1024 ms and is varying from 18 ms to 10057 ms.","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-09 08:00:00","Upon checking, we are able to the vcenter01 with 0% packet loss.
+
+Which is below the threshold value, moving the ticket to closure."
+"INC0156065","2025-06-01 01:18:00","SolarWinds ","Critical: Open - Application ""Windows Server 2019 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2019 Services and C","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-03 03:00:00","The application Windows Server 2019 Services and Counters on HALFDOME (10.50.16.217) is currently in a state of ""Up"". 
+
+The following is a list of components in this application presently. 
+
+% Processor Time (Up)
+
+Further no actions required hence moving the ticket to closure."
+"INC0156090","2025-06-02 01:59:34","Guna Sekhar (C)","CareDx || Azure update manager scheduling issue.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-05 21:00:01","Chris has advised to monitor the next patching cycle before making any further changes, as the previous testing conducted by him prior to deploying the configuration did not reveal any issues.
+
+Therefore, we are closing the ticket for now and will observe the upcoming patching cycle to determine the next steps."
+"INC0156091","2025-06-02 02:03:31","SolarWinds ","Critical: Open - Application ""Linux Memory Monitoring Perl"" on ""iil-dev.xdxinc.net"" is currently WarningThe application Linux Memory Monitoring Perl on iil-de","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-07 03:00:01","After observing closely we could see that component status is UP  and we have received the closer alert from SW in short span of time hence marking this ticket to resolved state."
+"INC0156115","2025-06-02 08:34:38","Riyas Muhammed (C)","CareDx || Alert for Liquid Handling Instruments - cameras went down","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 14:00:01","John has confirmed that we can ignore this. So no action is required on this; hence, closing this incident."
+"INC0156133","2025-06-02 09:46:01","SolarWinds ","Alert for Brisbane 3260 - cameras went down","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 14:00:00","John has confirmed that we can ignore this. So no action is required on this; hence, closing this incident."
+"INC0156177","2025-06-02 13:10:38","David Olague","CareDx || Demotion and Deletion of BrisDC02","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-04 14:00:03","BrisDC02 has been successfully demoted and shutdown for now.
+
+No further action is needed.
+
+Hence closing this ticket."
+"INC0156184","2025-06-02 14:03:41","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2016 Services and C","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-04 15:00:05","The application Windows Server 2016 Services and Counters on HALFDOME (10.50.16.217) is currently in a state of ""Up"".
+
+The following is a list of components in this application presently.
+
+% Processor Time(Up)
+
+Hence no further actions required moving ticket to closure."
+"INC0156185","2025-06-02 14:15:21","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability_azie-bioseq01","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-04 15:00:04","Upon checking, we could see the server is up and running fine, resource health is available. Uptime is more than 14 days. It's possible to see a discrepancy between the VM availability metric and Resource Health. There can be delays in collecting or reporting metrics from Azure resources. This s mostly because the Azure Service Health dashboard shows currently 1 active outages or known issues in the region."
+"INC0156204","2025-06-02 18:13:47","SolarWinds ","Critical: Open - Application ""SSL Certificate Expiration Date"" on ""xq-prod.caredx.com"" is currently WarningThe application SSL Certificate Expiration Date on","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-04 22:00:00","We got a reply from Ram that the certificate has been renewed.
+
+Hence marking the ticket to closure
+"
+"INC0156089","2025-06-02 01:38:30","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""SFOPAPSW01"" is currently CriticalThe application Windows Server 2003-2012 Se","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-04 04:00:00","Upon verifying the URL in SolarWinds, we found that Application ""Windows Server 2003-2012 Services and Counters"" and server status on ""SFOPAPSW01"" is up and running fine.
+All the application and services up and running fine .
+No further action required.
+Since the alert is also cleared, we are good to close the ticket."
+"INC0156088","2025-06-02 01:33:34","SolarWinds ","Critical: Open - Application ""SSL Certificate Expiration Date"" on ""xq-prod.caredx.com"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-04 07:00:01","After observing closely we could see that component status is UP  and the certificate is set to expire in the next 20 days and which is set to auto renewed hence moving this ticket to resolved state."
+"INC0156069","2025-06-01 10:46:01","Logesh Ramamoorthy (C)","Remove the lims-sql-prd01 and lims-sql-prd02 from custom prod db group in the Manage Engine","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-03 11:00:01","Hi Team,
+
+As per request the below mentioned servers are removed by ManageEngine
+Server details: lims-sql-prd01 and lims-sql-prd02.
+
+Thanks & Regards 
+Sanjay s"
+"INC0156070","2025-06-01 11:30:51","Microsoft Azure NoReply","Alert 'Disk_usage_warning_azwe-prd-dc01' was fired","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-03 12:00:00","After deleting the old dns logs, the current usage on C drive is 155 GB (68%) out of 227 GB which is below the threshold value. Additionally we have received the recovery alert further no issues were found hence marking this ticket for closure"
+"INC0156071","2025-06-01 11:36:52","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability-ussj-prd-rddb01-cl","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-03 12:00:01","The server is ""up and running fine"" and received this alert due to an Azure service issue (Tracking ID DN50-3VG) that impacted resources in this subscription; however, there was no downtime and no issue from the server, hence marking this incident for closure."
+"INC0156077","2025-06-01 14:16:38","David Olague","Reboot the outsys-prod server on 06-01-2025","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-03 15:00:01","As requested, following the lab approval, we have rebooted the outsys-prod server, and post-check, it is running fine."
+"INC0156078","2025-06-01 15:35:35","Rey Mandapat","Tavarua Brisbane ESXi Domain join dropped off","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-03 18:00:01","Hi Rey,
+
+Thank you for taking the time to join the call.
+
+As discussed, after reviewing the Kerberos configuration (/etc/krb5.conf), I confirmed it was correctly set for our Active Directory domain, XDXINC.NET, including the appropriate encryption types, DNS lookup, and accurate domain-to-realm mappings. However, the host was not joined initially due to a missing authentication file.
+
+Further, with your assistance, we have rejoined the ESXi host to the domain successfully. The host is now properly connected and authenticated with Active Directory, and we can log in using our credentials.
+
+Hence closing this incident."
+"INC0156080","2025-06-01 22:03:26","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2003-2012 Serv","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-06 17:00:00","Upon verifying the URL in SolarWinds, we found that Application """"Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is up and running fine.
+All the application and services up and running fine .
+No further action required.
+Since the alert is also cleared, we are good to close the ticket."
+"INC0156086","2025-06-02 00:35:31","SolarWinds ","Critical : Open:-Disk space low on host  ""avd-strat-0"" IP Address ""10.50.81.42"" for Volume ""C:\ Label:Windows  Serial Number F661C6E4"". Free space is ""9 %""","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-04 07:00:00","Upon checking the Disk space low on host ""avd-strat-0"" IP Address ""10.50.81.42"" for Volume ""C:\ Label:Windows Serial Number F661C6E4"". Free space is ""11 %""
+
+hence we good to close this INC"
+"INC0156087","2025-06-02 00:48:25","SolarWinds ","Critical: ALERT: prd-oktasyn01 rebooted at 6/2/2025 12:47:00 AM","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-04 02:00:00","This server is rebooted as part of on going patching activity,
+Mail chain: Windows and Linux Patch List || Prod Critical || May 2025.
+ hence no further action required, Moving the ticket to closure."
+"INC0156321","2025-06-03 15:31:48","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availabaility vm-it-jumphost-sc","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-05 16:00:00","Upon checking, we could see the server is up and running fine, resource health is available. Uptime is more than 9 days. It's possible to see a discrepancy between the VM availability metric and Resource Health. There can be delays in collecting or reporting metrics from Azure resources. This is mostly because the Azure Service Health dashboard shows currently 1 active outages or known issues in the region."
+"INC0156386","2025-06-04 10:46:52","SolarWinds ","Critical: Open: ALERT: Current packet loss for Fremantle ISP is 60 %.Average Response time is 208 ms and is varying from 208 ms to 208 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 12:00:04","The Fremantle ISP is up and running and able to ping the device with 0% packet loss. Additionally, we have received the recovery alert; further, no issues were found, hence closing this ticket."
+"INC0156387","2025-06-04 10:46:56","SolarWinds ","Critical: Open: ALERT: Current packet loss for fml-mdf11-acc-ms250-04 is 60 %.Average Response time is 215 ms and is varying from 212 ms to 225 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 12:00:01","The device fml-mdf11-acc-ms250-04 is ""up and running fine"" and able to ping the device with 0% packet loss. Additionally we have received the recovery alert further no issues were found hence closing this ticket."
+"INC0156458","2025-06-05 05:27:40","SolarWinds ","Critical: Open: ALERT: Current packet loss for Instrument Room Switch is 50 %.Average Response time is 170 ms and is varying from 169 ms to 171 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-07 07:00:01","Upon checking SolarWinds All the device are ""up and running fine"" and able to ping the device with 0% packet loss and additionally, we have received the recovery alert further no issues were found hence closing this ticket."
+"INC0156565","2025-06-05 17:03:09","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availabilty","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-07 18:00:01","We can see that the server is up and running fine without any reboot events. Also, there is no global outage.
+
+Additionally, the alert has been deactivated; hence, closing the ticket."
+"INC0156567","2025-06-05 18:15:36","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Jaws"" is currently CriticalThe application Windows Server 2003-2012 Services","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-08 08:00:03","Upon verifying the URL in SolarWinds, we found that Application ""Windows Server 2003-2012 Services and Counters"" on ""Jaws"" is up and running fine.
+All the application and services up and running fine .
+No further action required.
+Since the alert is also cleared, we are good to close the ticket."
+"INC0156577","2025-06-05 21:46:11","Rodel Roberto","Sax Unresponsive","1 - Critical","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-07 23:00:02","Hi team,
+
+After rebooting the server Outsys-prod from server team, and Atik restarted the services Rodel is able to access the SAX now and URL is loading Fine.
+
+Best regards,
+Mahesh C"
+"INC0156578","2025-06-05 22:13:38","SolarWinds ","Critical: Open: ALERT: Current packet loss for outsys-prod.xdxinc.net is 60 %.Average Response time is 26 ms and is varying from 25 ms to 28 ms.","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-07 23:00:03","Hi Team,
+
+This was a planned activity. We rebooted the server as per David's request to address the P1 issue.
+
+Now server up and running fine.
+
+Reference: INC0156577 - Sax Unresponsive
+
+Best regards,
+Mahesh C"
+"INC0156579","2025-06-05 22:15:14","SolarWinds ","Critical : Open : Node ""outsys-prod.xdxinc.net"" IP ""10.125.144.16"" is ""Down""  Alert description: Node ""outsys-prod.xdxinc.net""  IP ""10.125.144.16""  is Down","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-07 23:00:01","Hi Team,
+
+This was a planned activity. We rebooted the server as per David's request to address the P1 issue.
+
+Now server up and running fine.
+
+Reference: INC0156577 - Sax Unresponsive
+
+Best regards,
+Mahesh C"
+"INC0156580","2025-06-05 22:20:33","SolarWinds ","Critical: ALERT: outsys-prod.xdxinc.net rebooted at 6/5/2025 10:15:00 PM","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-07 23:00:03","Hi Team,
+
+This was a planned activity. We rebooted the server as per David's request to address the P1 issue.
+
+Now server up and running fine.
+
+Reference: INC0156577 - Sax Unresponsive
+
+Best regards,
+Mahesh C
+
+"
+"INC0156626","2025-06-06 14:03:10","SolarWinds ","Critical: ALERT: avd-strat-0 rebooted at 6/6/2025 2:00:00 PM","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-11 12:00:02","Due to uninstalling qualys agent from ManageEngine, it has been rebooted and currently it is ""up and running fine."" Hence reducing the priority and closing this incident."
+"INC0156457","2025-06-05 05:27:36","SolarWinds ","Critical: Open: ALERT: Current packet loss for Warehouse Switch is 80 %.Average Response time is 169 ms and is varying from 169 ms to 170 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-07 07:00:01","Upon checking SolarWinds All the device are ""up and running fine"" and able to ping the device with 0% packet loss and additionally, we have received the recovery alert further no issues were found hence closing this ticket."
+"INC0156456","2025-06-05 05:27:32","SolarWinds ","Critical: Open: ALERT: Current packet loss for SSP Lab Switch is 80 %.Average Response time is 169 ms and is varying from 169 ms to 169 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-07 07:00:00","Upon checking SolarWinds All the device are ""up and running fine"" and able to ping the device with 0% packet loss and additionally, we have received the recovery alert further no issues were found hence closing this ticket."
+"INC0156388","2025-06-04 10:47:53","SolarWinds ","Critical : Open : Node ""Fremantle ISP"" IP ""115.70.196.38"" is ""Down""  Alert description: Node ""Fremantle ISP""  IP ""115.70.196.38""  is DownAlert Generated ti","3 - Moderate","Closed","CDNA Stratogent","Somanth Krishnamurthy (C)","2025-06-06 13:00:02","Network team informed that currently we see that traffic flow and users are getting connected, which means ISP is up and running hence, we are closing this incident."
+"INC0156391","2025-06-04 10:52:52","SolarWinds ","Warning: Open: ALERT: Fremantle is Down","3 - Moderate","Closed","CDNA Stratogent","Somanth Krishnamurthy (C)","2025-06-06 13:00:01","Resolution notes copied from Parent Incident: Network team informed that currently we see that traffic flow and users are getting connected, which means ISP is up and running hence, we are closing this incident."
+"INC0156392","2025-06-04 10:57:54","SolarWinds ","Critical: Open: ALERT: Current packet loss for fml-mdf11-fw1-f1120-01 is 90 %.Average Response time is 211 ms and is varying from 211 ms to 211 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 12:00:02","The fml-mdf11-fw1-f1120-01 is up and running and able to ping the device with 0% packet loss. Additionally, we have received the recovery alert; further, no issues were found, hence closing this ticket."
+"INC0156393","2025-06-04 10:57:58","SolarWinds ","Critical: Open: ALERT: Current packet loss for fml-mdf11-acc-ms250-03 is 80 %.Average Response time is 212 ms and is varying from 212 ms to 212 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 12:00:03","The device fml-mdf11-acc-ms250-03 is up and running and able to ping the device with 0% packet loss. Additionally we have received the recovery alert further no issues were found hence closing this ticket."
+"INC0156395","2025-06-04 10:57:28","Ratnodeep Roy (C)","Reboot the two proxies in sto-sweden location","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 12:00:02","As requested, we have rebooted these proxies, and they are ""up and running fine."" Further, the backup team confirmed that the backup has started and is working fine."
+"INC0156435","2025-06-04 14:47:23","SolarWinds ","Critical: Open - Application ""SSL Certificate"" on ""STO-VCENTER01"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-08 09:00:01","The application is ""up and running fine,"" and the component HTTPS is up. Additionally, we have received the recovery alert; further, no issues were found, hence closing this ticket."
+"INC0156446","2025-06-04 17:15:18","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""Prometheus2"" is currently CriticalThe application Windows Server 2016 Services an","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-06 20:00:00","The application is ""up and running fine,"" and the component logical and physical disk queue has come to normal. Additionally, we have received the recovery alert; further, no issues were found, hence closing this ticket."
+"INC0156453","2025-06-05 02:37:13","SolarWinds ","Critical: Open - Application ""Web links under outsys-prod"" on ""outsys-prod.xdxinc.net"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-09 17:00:00","The application Web links under outsys-prod on outsys-prod.xdxinc.net (10.125.144.16) is currently in a state of ""Up"".
+
+The following is a list of components in this application presently.
+
+HTTP Monitor(Up)
+
+No further actions required hence moving ticket to closure."
+"INC0156642","2025-06-06 22:02:24","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2016 Services and C","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-13 06:00:01","
+The application Windows Server 2016 Services and Counters on HALFDOME (10.50.16.217) is ""UP"".
+
+The following is a list of components in this application is ""UP""
+% Processor Time (UP)
+
+PFA
+
+Hence, moving the ticket to closure.
+"
+"INC0157331","2025-06-16 12:15:03","SolarWinds ","Critical: Open: ALERT: Current packet loss for HQ-WiLine-FW is 70 %.Average Response time is 25 ms and is varying from 25 ms to 26 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-18 13:00:03","Resolution notes copied from Parent Incident: We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure.
+Incident 'INC0157331' closed based on closure of task 'INC0157332'
+
+We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0157397","2025-06-17 08:15:44","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability vm-eis-dev-wus2-1","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 11:00:00","The availability alert was due the reboot initiated by the system setup process as the server was set up today.
+
+No action required hence marking the ticket to closure."
+"INC0157398","2025-06-17 08:18:54","Guna Sekhar (C)","Review Caredx patch list for this weekend with Customer","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-21 10:00:00","Hi Team,
+
+We have Review Caredx patch list for this weekend with Customer
+Sweden Prod Critical servers - Security and Third party patching 
+
+Please find the attached mail chain.
+
+Thanks & Regards 
+Sanjay S."
+"INC0157424","2025-06-17 10:57:06","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability - sto-seq was triggered for vmse-it-1","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 12:00:03","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157425","2025-06-17 10:59:47","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""Prometheus2"" is currently CriticalThe application Windows Server 2003-2012 S","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-19 12:00:03","Upon verifying the affected components ""Logical Disk: Avg. Disk Queue Length(Critical) Physical Disk: Avg. Disk Queue Length(Critical)"" came up in short span of time additionally we don't any deviations with the server functionality\performance looks to be glitch in the network which reported the component to go down hence ticket is good to be closed."
+"INC0157431","2025-06-17 11:21:03","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability - sto-seq was triggered for vmse-it-0","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-19 12:00:01","We had received VM Availability alert for vmse-it-0
+
+However, upon checking we could see that the VMs are Up and online. Resource Health is Available, and we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now."
+"INC0157432","2025-06-17 11:29:30","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability - sto-seq was triggered for sto-svn-base01","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 12:00:01","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157439","2025-06-17 12:16:31","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM availiabity vm-mappro-mms-1-prod","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-19 14:00:03","Hi Team,
+
+We received a VM Availability alert for vm-mappro-mms-1-prod. However upon investigation we found that the VM is currently up and running. The Resource Health status is marked as Available and there are no signs of reboots or downtime.
+
+We suspect a glitch between the VM availability metrics and Resource Health data from Azure. This may be due to temporary delays in metric collection or reporting on Azure's end, where the availability metric may indicate downtime while Resource Health continues to show the VM as available. Such inconsistencies can occasionally trigger false alerts possibly due to transient monitoring issues or network latency.
+
+Additionally, no active service issues were observed all regions are reporting as healthy.
+
+As no actual impact was observed, we will proceed with closing the ticket for now.
+
+"
+"INC0157450","2025-06-17 13:12:27","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability Sto-sql-db01","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 14:00:04","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, sent a mail to the customer and no further action required hence marking the ticket for closure.
+"
+"INC0157395","2025-06-17 08:12:32","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability - sto-seq-base03","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-19 10:00:01","Hi Team,
+
+Upon checking, the server is up and running fine.
+
+There has been no reboot triggered from either the Azure portal or the server end.
+The current uptime is 2 days and 19 hours.
+
+Please find the attached evidence for your reference.
+
+Thanks & Regards,
+Sanjay S"
+"INC0157387","2025-06-17 07:07:25","Microsoft Azure NoReply","Important: Azure Backup data will be permanently deleted || Vault :	vault-it-backup-wus2","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-19 09:00:02","
+Upon checking the logs, we found that the deletion was initiated from Chris's account, and soft delete is currently enabled for 7 days.
+
+As Chris explained, the backups for this file share were turned off because they are no longer needed.
+
+Therefore, we are ignoring the alert and proceeding with ticket closure."
+"INC0157386","2025-06-17 06:47:57","Sanjay Kumar (C)","Qualys agent uninstall from Azure for all the groups","4 - Low","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-19 08:00:03","Hi Team ,
+
+We have successfully uninstalled the Qualys agent from the Azure end for all groups.
+However, for 30 servers under the inface and rprt groups, we currently do not have access
+
+PFA 
+
+Thanks & Regards 
+sanjay s"
+"INC0157332","2025-06-16 12:16:04","SolarWinds ","Critical : Open : Node ""HQ-WiLine-FW"" IP ""67.207.110.49"" is ""Down""  Alert description: Node ""HQ-WiLine-FW""  IP ""67.207.110.49""  is DownAlert Generated time","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-18 13:00:03","We are able to ping the node with 0% packet loss, also node is up in SolarWinds,
+
+As we received closure alert from SolarWinds, hence marking the ticket to closure."
+"INC0157346","2025-06-16 14:09:13","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""HALFDOME"" is currently WarningThe application Windows Server 2016 Services and Co","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-18 15:00:02","Upon checking, Application ""Windows Server 2016 Services and Counters"" on ""HALFDOME"" is Up
+
+we found that the application and services are running properly.
+
+% Processor Time (UP)
+
+Therefore, we are closing this ticket."
+"INC0157366","2025-06-16 19:19:35","Microsoft Azure NoReply","Azure: Activated Severity: 0 vm availablity || azsc-olerup-dc","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 20:00:01","Upon checking we could see that the VMs are Up and online. Resource Health is Available and also we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+"
+"INC0157367","2025-06-16 19:20:52","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability - sto-seq-base01","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 20:00:01","Upon checking we could see that the VMs are Up and online. Resource Health is Available and also we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+"
+"INC0157377","2025-06-17 04:16:48","Guna Sekhar (C)","Identify the DB servers from each patch group and share the list with Chris","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-19 08:00:02","As per Chris request i ahve listed the DB servers and there server owner names as per group wise 
+"
+"INC0157378","2025-06-17 05:15:23","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM avalibility_sto-dev-base01","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-19 09:00:01","We had received VM Availability alerts for sto-dev-base01
+
+However, upon checking we could see that the VMs are Up and online. Resource Health is Available, and we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+"
+"INC0157379","2025-06-17 05:26:13","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability Metric-sto-dev-test02","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-19 09:00:01","We had received VM Availability alerts for sto-dev-test02.
+
+However, upon checking we could see that the VMs are Up and online. Resource Health is Available, and we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+"
+"INC0157384","2025-06-17 06:24:26","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability Metric- sto-dev-test03","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-19 08:00:02","Upon checking, the server is up and running fine.
+
+There has been no reboot triggered from either the Azure portal or the server end.
+The current uptime is 2 days and 19 hours.
+
+Please find the attached evidence for your reference."
+"INC0157451","2025-06-17 13:14:53","Microsoft Azure NoReply","Azure Multiple VM Availability alerts || sto-dev-test05, sto-dev-test04, sto-flex-base, sto-seq-base02","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-19 15:00:01","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157455","2025-06-17 13:58:14","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability_vm-sdwan-ecv-prod-01","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 15:00:03","We received a VM Availability alert for vm-mappro-mms-1-prod. However upon investigation we found that the VM is currently up and running. The Resource Health status is marked as Available and there are no signs of reboots or downtime.
+ 
+We suspect a glitch between the VM availability metrics and Resource Health data from Azure. This may be due to temporary delays in metric collection or reporting on Azure's end, where the availability metric may indicate downtime while Resource Health continues to show the VM as available. Such inconsistencies can occasionally trigger false alerts possibly due to transient monitoring issues or network latency.
+ 
+Additionally, no active service issues were observed all regions are reporting as healthy.
+ 
+As no actual impact was observed, we will proceed with closing the ticket for now.
+"
+"INC0157498","2025-06-18 01:49:48","SolarWinds ","Alert for Fremantle - Clients fail to connect to the wireless network","3 - Moderate","Closed","CDNA Stratogent","Somanth Krishnamurthy (C)","2025-06-21 09:00:03","Hi Team,
+The issue was with the incorrect password by user."
+"INC0157499","2025-06-18 02:39:06","SolarWinds ","Warning: Open: ALERT: SSP Lab Switch has exceptionaly high response time. Average Response Time is 407 ms and is varying from 168 ms to 2317 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-21 08:00:01","The device is ""up and running fine"" and able to ping the device with 0% packet loss. Further no issues were found hence closing this incident."
+"INC0157500","2025-06-18 03:59:34","Microsoft Azure NoReply","Azure: Activated Severity: 0 vm availability||vm-tcprodsql-01","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-20 09:00:01","Hello Team,
+
+We had received VM Availability alerts for vm-tcprodsql-01
+
+However, upon checking we could see that the VM is Up and running. Resource Health is Available and, we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now."
+"INC0157501","2025-06-18 04:01:15","Microsoft Azure NoReply","Azure: Activated Severity: 0 vm availability|| vm-tcqaapp-01","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-20 07:00:00","Hi Team, 
+
+We had received VM availability alerts for vm-tcqaapp-01.
+
+However, upon checking, we could see that the VM is up and running. Resource Health is available, and we don't see any reboots or downtime observed. 
+
+Suspecting discrepancy between the VM availability metric and Resource Health from the Azure end, as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health shows an ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now."
+"INC0157506","2025-06-18 06:39:29","Microsoft Azure NoReply","Important: An Azure Backup restore failure alert has been activated for atm-oradbs02a","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-20 09:00:05","After Chris made some changes in the Azure portal under the backup vault—""vault-it-backup-wus2""—the backup restore succeeded."" Further, no action is required; hence, closing this incident."
+"INC0157536","2025-06-18 08:42:06","SolarWinds ","Critical : Open : volume 'knowbe4-C:\ Label: 5E9D4E7A ' on Node 'knowbe4' is in 'Unknown ' stateAn issue on an object you are monitoring occurred at Wednesda","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-20 10:00:04","Hi Team,
+
+Upon checking, the volume  'knowbe4-C:\ Label: 5E9D4E7A ' on node 'knowbe4' is still showing as 'Unknown', and the same status is reflected on the server itself.
+
+However, the node is up and running fine.
+
+Please find the attached screenshot/logs for reference.
+
+Thanks & Regards,
+Sanjay S"
+"INC0157537","2025-06-18 08:42:10","SolarWinds ","Critical : Open : volume 'knowbe4-E:\ Label:New Volume A8EDAE0C ' on Node 'knowbe4' is in 'Unknown ' stateAn issue on an object you are monitoring occurred at","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-20 10:00:05","Hi Team,
+
+Upon checking, the volume 'knowbe4-E:\ Label: New Volume A8EDAE0C' on node 'knowbe4' the same status is reflected on the server itself.
+
+However, the node is up and running fine.
+
+Please find the attached screenshot/logs for reference.
+
+Thanks & Regards,
+Sanjay S"
+"INC0157552","2025-06-18 09:56:05","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM availabity  vm-mappro-hybrid-worker-prod","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-20 11:00:03","Hi Team,
+ 
+We received a VM Availability alert for vm-mappro-hybrid-worker-prod. However, upon investigation we found that the VM is currently up and running. The Resource Health status is marked as Available and there are no signs of reboots or downtime.
+ 
+We suspect a glitch between the VM availability metrics and Resource Health data from Azure. This may be due to temporary delays in metric collection or reporting on Azure's end, where the availability metric may indicate downtime while Resource Health continues to show the VM as available. Such inconsistencies can occasionally trigger false alerts possibly due to transient monitoring issues or network latency.
+ 
+Additionally, no active service issues were observed all regions are reporting as healthy.
+ 
+As no actual impact was observed, we will proceed with closing the ticket for now.
+"
+"INC0157497","2025-06-18 01:40:13","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availabity-vm-tcprodapp-01","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-20 03:00:00","We had received VM Availability alerts for vvm-tcprodapp-01
+
+However, upon checking we could see that the VM is Up and running. Resource Health is Available and also we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now."
+"INC0157490","2025-06-17 23:32:05","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability || vm-mappro-hybrid-worker-dev","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-20 02:00:02","upon checking we could see that the VM is Up and running. Resource Health is Available and also we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+"
+"INC0157489","2025-06-17 22:22:50","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability ||  vm-mappro-hybrid-worker-tst","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 02:00:00","Hi team,
+
+Upon verification, the Azure portal server is up and running as expected.
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now. PFA
+
+Best regards,
+Mahesh C
+
+"
+"INC0157463","2025-06-17 14:34:15","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability Metric || sto-dev-test06","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 17:00:03","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157468","2025-06-17 15:07:13","SolarWinds ","Critical: ALERT: avd-strat-0 rebooted at 6/17/2025 3:04:00 PM","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-20 02:00:02","Hi Team,
+
+Upon checking, the AVD servers are up and running without any issues.
+
+No further action is required at this time, and we will proceed to close the ticket.
+
+Best regards,
+Mahesh C"
+"INC0157470","2025-06-17 15:12:57","SolarWinds ","Critical: ALERT: brisbiophys-ssh01 rebooted at 6/17/2025 3:11:00 PM","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 16:00:02","This reboot was a legitimate activity as part of the server troubleshooting.
+
+No further action required, hence reducing the priority and marking the ticket to closure."
+"INC0157477","2025-06-17 16:19:37","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability_vm-sdwan-orch-prod || vm-tcqasql-01","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 17:00:01","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157481","2025-06-17 16:52:31","Melanie Chua","Samples need to be requeued back to Assay Prep (alt workflow)","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 18:00:01","Antonio confirmed through mail that he was able to map the sample and register to SAX.
+
+No further action required, hence closing this incident."
+"INC0157482","2025-06-17 17:55:04","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability || azwe-dev-bill01  || vm-tcdevsql-01","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 19:00:01","Upon validation the server has not reboot and the availability alert was due to discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert.
+
+This could happen due to temporary issues within the Azure monitoring or network latency, no further action required hence marking the ticket for closure."
+"INC0157484","2025-06-17 18:28:09","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availability || azwe-dev-azir03","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-19 19:00:00","Upon checking we could see that the VMs are Up and online. Resource Health is Available and also we don't see any reboots or down time observed.
+
+Suspecting discrepancy between the VM availability metric and Resource Health from Azure end as there can be delays in collecting or reporting metrics from Azure resources sometimes.
+Where the metric shows a downtime, but Resource Health showing ""Available"" status, potentially triggering an alert. 
+
+This could happen due to temporary issues within the Azure monitoring or network latency. We will proceed with ticket closure for now.
+
+"
+"INC0157486","2025-06-17 18:56:08","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availabaility vm-it-jumphost-sc","3 - Moderate","Closed","CDNA Stratogent","Chikkanti Mahesh (C)","2025-06-19 22:00:00","Hi Team,
+
+Upon verification, the servers are up and running without any packet loss. Additionally, the server status in the Azure portal indicates that everything is functioning normally.
+
+No further action is required at this time, and we will proceed to close the ticket. PFA
+
+Best regards,
+Mahesh C"
+"INC0157566","2025-06-18 11:18:12","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM Availibity  azpwprdslimapp1","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-20 13:00:03","Hello Kenny,
+
+We received an availability alert for the VM azpwprdslimapp1.
+
+After checking from the Azure portal, we confirmed that the VM is currently running normally. The Resource Health status shows the VM as Available with no signs of reboots or downtime.
+
+It seems there was a mismatch between the Availability metrics and Resource Health data. This can happen occasionally due to temporary delays in data collection, network latency, or other short-term monitoring issues. As a result availability metrics might briefly show downtime even when the VM is healthy leading to false alerts.
+
+We also confirmed that there are no active service issues in any Azure regions.
+
+Since there was no actual impact, we will go ahead and close the ticket.
+
+"
+"INC0157318","2025-06-16 11:04:11","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""SFOPAPSW01"" is currently CriticalThe application Windows Server 2003-2012 Se","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-23 01:00:01","Upon checking, Application ""Windows Server 2003-2012 Services and Counters"" on ""SFOPAPSW01"" is Up
+
+we found that the application and services are running properly.
+
+% Processor Time (UP)
+
+Therefore, we are closing this ticket."
+"INC0157094","2025-06-12 20:44:34","SolarWinds ","Critical: Open: ALERT: Current packet loss for iil-dev.xdxinc.net is 50 %.Average Response time is 21 ms and is varying from 20 ms to 24 ms.","3 - Moderate","Closed","CDNA Stratogent","Sinchana Narendra (C)","2025-06-15 02:00:00","Upon verify , there is iil-dev.xdxinc.net  there is no packet loss. 
+the node is also up and running fine. "
+"INC0157181","2025-06-14 00:13:47","SolarWinds ","Critical: Open - Application ""SSL Certificate Expiration Date"" on ""ibox-api-test.caredx.com"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-16 01:00:00","The application SSL Certificate Expiration Date on ibox-api-test.caredx.com (52.165.184.170) is ""UP"".
+
+The following is a list of components in this application is ""UP"".
+
+SSL Certificate Expiration Date Monitor(UP)
+
+Additionally, we received cleared alert. Moving the ticket to closure.
+"
+"INC0157188","2025-06-14 12:39:49","SolarWinds ","Critical: Open - Application ""CareDx_Application_Monitor"" on ""vcenter01"" is currently Down","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-16 13:00:00","Upon validating, the application CareDx_Application_Monitor on vcenter01 (10.125.143.10) is currently in a state ""up""
+
+Also, the component of the application ClarityLIMS is also up and accessible from the server vcenter01.
+
+As we received closure alert from SolarWinds hence making the ticket to closure."
+"INC0157203","2025-06-15 14:02:21","SolarWinds ","Critical: Open: ALERT: Current packet loss for STO-VCENTER01 is 50 %.Average Response time is 167 ms and is varying from 167 ms to 168 ms.","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-17 15:00:00","Upon reviewing the event logs, we identified Event ID 41, indicating that the server may have rebooted due to a power interruption or system unresponsiveness.
+
+However, the server is now up and running fine, and all automatic services are running as expected.
+
+we have an ongoing ticket to the same. REF: INC0157206
+
+Hence marking the ticket to closure."
+"INC0157204","2025-06-15 14:02:47","SolarWinds ","Critical: Open - Application ""SSL Certificate"" on ""STO-VCENTER01"" is currently Down","5 - Planning","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-17 15:00:01","Upon reviewing the event logs, we identified Event ID 41, indicating that the server may have rebooted due to a power interruption or system unresponsiveness.
+
+However, the server is now up and running fine, and all automatic services are running as expected.
+
+we have an ongoing ticket to the same. REF: INC0157206
+
+Hence marking the ticket to closure.
+"
+"INC0157205","2025-06-15 14:07:46","SolarWinds ","Critical : Open : Node ""STO-VCENTER01"" IP ""10.100.100.230"" is ""Down""  Alert description: Node ""STO-VCENTER01""  IP ""10.100.100.230""  is DownAlert Generated","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-17 15:00:01","Upon reviewing the event logs, we identified Event ID 41, indicating that the server may have rebooted due to a power interruption or system unresponsiveness.
+
+However, the server is now up and running fine, and all automatic services are running as expected.
+
+we have an ongoing ticket to the same. REF: INC0157206
+
+Hence marking the ticket to closure."
+"INC0157206","2025-06-15 14:18:15","SolarWinds ","Critical: ALERT: STO-VCENTER01 rebooted at 6/15/2025 2:16:00 PM","3 - Moderate","Closed","CDNA Stratogent","Sudheesh Balakrishna (C)","2025-06-19 18:00:01","As the server is up and running fine and no issues reported.
+
+No further action required hence marking the ticket for closure."
+"INC0157207","2025-06-15 16:18:38","SolarWinds ","Critical: Open: ALERT: Current packet loss for outsys-prod.xdxinc.net is 100 %.Average Response time is -1 ms and is varying from -2 ms to -2 ms.","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-17 23:00:00","Server has been rebooted as part of the scheduled weekend maintenance activity, post reboot server is up and back online and running as expected considering the scenario ticket is good to be closed."
+"INC0157208","2025-06-15 16:20:37","SolarWinds ","Critical: ALERT: outsys-prod.xdxinc.net rebooted at 6/15/2025 4:17:00 PM","3 - Moderate","Closed","CDNA Stratogent","Anbalagan Dayananth (C)","2025-06-17 17:00:00","Server has been rebooted as part of the scheduled weekend maintenance activity, post reboot server is up and back online and running as expected considering the scenario ticket is good to be closed."
+"INC0157179","2025-06-13 21:27:35","SolarWinds ","Critical : Open : Node ""YellowDC01"" IP ""10.100.100.70"" is ""Down""  Alert description: Node ""YellowDC01""  IP ""10.100.100.70""  is DownAlert Generated time  :","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-15 22:00:00","Yellowdc01 is already decommissioned.
+Moving the ticket to closure."
+"INC0157178","2025-06-13 21:23:13","SolarWinds ","Critical: Open: ALERT: Current packet loss for YellowDC01 is 80 %.Average Response time is 170 ms and is varying from 167 ms to 174 ms.","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-15 22:00:01","Yellowdc01 is already decommissioned.
+Moving the ticket to closure."
+"INC0157177","2025-06-13 18:04:16","SolarWinds ","Warning : Open:-Disk space low on host  ""avd-strat-0"" IP Address ""10.50.81.42"" for Volume ""C:\ Label:Windows  Serial Number F661C6E4"". Free space is ""13 %""","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-18 07:00:02","After deleting the unwanted data, the current C drive utilization is 15% and further no issues were found hence closing this incident."
+"INC0157101","2025-06-13 05:07:56","Guna Sekhar (C)","Dev/Test servers, Post patching evidence and uninstall qualys agent for no access server","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-15 14:00:03","Connected with Rey, captured the post-patching evidence, and uninstalled the Qualys agent for the below servers.
+dev-adf-rpt01
+ds-dev-ml01
+vm-tcdevapp-01
+vm-tcdevsql-01
+
+For the remaining servers, even Rey doesn't have access. Hence, closing the ticket."
+"INC0157105","2025-06-13 06:02:46","SolarWinds ","Warning: Open: ALERT: vcenter01 has exceptionaly high response time. Average Response Time is 463 ms and is varying from 14 ms to 4482 ms.","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-15 07:00:00","The server is ""up and running fine,"" and able to ping the server with 0% packet loss. Additionally, we have received the recovery alert; further, no issues were found, hence closing this incident."
+"INC0157108","2025-06-13 06:23:04","SolarWinds ","Critical: ALERT: azpwlabslimapp1 rebooted at 6/13/2025 6:21:00 AM","3 - Moderate","Closed","CDNA Stratogent","Varunsimha M P (C)","2025-06-15 07:00:00","The Server is rebooted by Kenny, hence reducing the priority and no action is required on this."
+"INC0157113","2025-06-13 08:05:12","Microsoft Azure NoReply","Azure: Activated Severity: 0 VM availiabity || vm-dev-db-mtilda-01","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-15 09:00:01","We had received an VM Availability alert for vm-dev-db-mtilda-01.
+
+Upon checking from the Azure portal, can see that the restart action was triggered by an authorized user or process from within the Virtual Machine. We don't have the sufficient login privileges to check the logs from the server end.
+ 
+However, from Resource Health we can see the VM is in available state. Hence proceeding with ticket closure.
+"
+"INC0157137","2025-06-13 10:12:15","SolarWinds ","Critical: Open - Application ""Windows Server 2019 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2019 Services and","3 - Moderate","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-15 11:00:02","The application Windows Server 2019 Services and Counters on ""Prometheus2"" is currently in a state of ""Up"".
+ 
+The following is a list of components in this application presently.
+ 
+% Processor Time(Up)"
+"INC0157154","2025-06-13 12:21:05","Swaroop MS (C)","VM Image Cleanup for brisdc02 and sto-prd-dc01 from their respective vCenters.","3 - Moderate","Closed","CDNA Stratogent","Swaroop MS (C)","2025-06-15 13:00:03","As part of the decommissioning process, we have deleted the VM images of both brisdc02 and sto-prd-dc01 from their respective vCenters.
+
+No further action is required.
+
+Hence, closing this ticket.
+
+PFA
+"
+"INC0157174","2025-06-13 16:46:24","Antonio Cervantes","P1 - AP samples mapped to cDNA  plate","1 - Critical","Closed","CDNA Stratogent","Pompa Reddy (C)","2025-06-15 19:00:00","As confirmed by the user, Run is now successfully registered in SAX hence we are closing out the P1"
+"INC0157175","2025-06-13 17:49:19","SolarWinds ","Critical : Open:-Disk space low on host  ""avd-strat-0"" IP Address ""10.50.81.42"" for Volume ""C:\ Label:Windows  Serial Number F661C6E4"". Free space is ""8 %""","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-15 22:00:01","Disk space low on host  ""avd-strat-0"" IP Address ""10.50.81.42"" for Volume ""C:\ Label:Windows  Serial Number F661C6E4"". Free space is ""15"".
+
+which is below the threshold value.
+
+Additionally, we received cleared alert form SolarWinds .
+
+Moving the ticket to closure."
+"INC0157219","2025-06-15 19:24:51","SolarWinds ","Critical: ALERT: azpwqaslimapp1 rebooted at 6/15/2025 7:24:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-17 21:00:00","As part of patching activity, azpwqaslimapp1 rebooted.
+
+We are able to login into the server without any issues.
+
+PFA
+
+Moving the ticket to closure."
+"INC0157220","2025-06-15 22:14:06","SolarWinds ","Critical: Open - Application ""Windows Server 2016 Services and Counters"" on ""Prometheus2"" is currently CriticalThe application Windows Server 2016 Services an","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-21 21:00:00","The application Windows Server 2016 Services and Counters on Prometheus2 (10.50.16.223)  is ""UP""
+The following is a list of components in this application ""UP""
+Logical Disk: Avg. Disk Queue Length(UP).
+Physical Disk: Avg. Disk Queue Length (UP)
+
+Additionally, we received cleared alert from SolarWinds.
+
+Moving the ticket to closure.
+"
+"INC0157231","2025-06-15 22:41:46","SolarWinds ","Critical: ALERT: AZWE-PRD-R7CL02 rebooted at 6/15/2025 10:32:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:05","The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157232","2025-06-15 22:42:25","SolarWinds ","Warning: Open: ALERT: outsys-prod.xdxinc.net has exceptionaly high response time. Average Response Time is 864 ms and is varying from 25 ms to 5030 ms.","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 00:00:02","Upon verifying, we are able to ping the outsys-prod with 0% ping loss.
+
+Additionally, we received cleared alert.
+
+Moving the ticket to closure."
+"INC0157233","2025-06-15 22:58:43","SolarWinds ","Critical: ALERT: SQLDBMANAGER rebooted at 6/15/2025 10:57:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:09","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered
+Incident 'INC0157233' closed based on closure of task 'INC0157231'
+
+The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157234","2025-06-15 23:07:31","SolarWinds ","Critical: ALERT: TOOLS-DEV-2016 rebooted at 6/15/2025 11:05:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:09","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered
+Incident 'INC0157234' closed based on closure of task 'INC0157231'
+
+The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157230","2025-06-15 22:32:13","SolarWinds ","Critical: ALERT: Malibu rebooted at 6/15/2025 10:28:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:03","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157235","2025-06-15 23:11:14","SolarWinds ","Critical: ALERT: softinstall01 rebooted at 6/15/2025 11:09:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:03","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157236","2025-06-15 23:13:35","SolarWinds ","Critical: ALERT: wprddhcp01 rebooted at 6/15/2025 11:10:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 03:00:04","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157240","2025-06-16 02:04:02","SolarWinds ","Critical: Open - Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2003-2012 Serv","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-20 14:00:03","Upon checking Application ""Windows Server 2003-2012 Services and Counters"" on ""HALFDOME"" is Up and running fine 
+"
+"INC0157271","2025-06-16 07:19:07","SolarWinds ","Critical: Open - Application ""Windows Server 2019 Services and Counters"" on ""HALFDOME"" is currently CriticalThe application Windows Server 2019 Services and C","3 - Moderate","Closed","CDNA Stratogent","Sanjay Kumar (C)","2025-06-19 10:00:00","upon checking Application ""Windows Server 2019 Services and Counters"" on ""HALFDOME"" is  Up and running fine 
+"
+"INC0157229","2025-06-15 22:31:04","SolarWinds ","Critical: ALERT: ussj-prd-prt01 rebooted at 6/15/2025 10:27:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:01","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157221","2025-06-15 22:20:42","SolarWinds ","Critical: ALERT: Prometheus2 rebooted at 6/15/2025 10:17:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 03:00:02","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157222","2025-06-15 22:28:55","SolarWinds ","Critical: Open - Application ""Windows Server 2019 Services and Counters"" on ""Prometheus2"" is currently WarningThe application Windows Server 2019 Services and","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-17 23:00:01","The application Windows Server 2019 Services and Counters on Prometheus2 (10.50.16.223) is ""UP""
+The following is a list of components in this application ""UP""
+% Processor Time(UP).
+
+Additionally, we received cleared alert from SolarWinds.
+
+Moving the ticket to closure."
+"INC0157223","2025-06-15 22:28:56","SolarWinds ","Critical: Open: ALERT: Current packet loss for vcenter01 is 100 %.Average Response time is -1 ms and is varying from -2 ms to -2 ms.","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 00:00:03","
+Upon verifying, we are able to ping the vcenter01 with 0% .
+
+Additionally, we received cleared alert.
+
+Moving the ticket to closure.
+"
+"INC0157224","2025-06-15 22:29:00","SolarWinds ","Critical: Open: ALERT: Current packet loss for iil-dev.xdxinc.net is 100 %.Average Response time is -1 ms and is varying from -2 ms to -2 ms.","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 00:00:00","Upon verifying, we are able to ping the iil-dev.xdxinc.net with 0% ping loss.
+
+Additionally, we received cleared alert.
+
+Moving the ticket to closure."
+"INC0157225","2025-06-15 22:29:13","SolarWinds ","Critical: ALERT: azwe-it-sftp01 rebooted at 6/15/2025 10:22:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 03:00:02","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157226","2025-06-15 22:29:53","SolarWinds ","Critical: ALERT: SFOPAPSW01 rebooted at 6/15/2025 10:24:00 PM","3 - Moderate","Closed","CDNA Stratogent","Pasapula Dinesh (C)","2025-06-18 03:00:08","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered
+Incident 'INC0157226' closed based on closure of task 'INC0157231'
+
+The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157227","2025-06-15 22:30:55","SolarWinds ","Critical: ALERT: labprtcloud1 rebooted at 6/15/2025 10:28:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:05","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0157228","2025-06-15 22:31:00","SolarWinds ","Critical: ALERT: HKSDOC1 rebooted at 6/15/2025 10:27:00 PM","3 - Moderate","Closed","CDNA Stratogent","Puneeth Nagaraj (C)","2025-06-18 03:00:00","Resolution notes copied from Parent Incident: The server is part of the maint-it-wus2-noncrit-prod Auto Patch Group, hence reboot alert has been triggered"
+"INC0158357","2025-06-27 01:46:33","SolarWinds ","Testing","5 - Planning","Canceled","CDNA Stratogent","Varunsimha M P (C)","2025-06-27 01:52:29",""
+"INC0158356","2025-06-27 01:43:18","SolarWinds ","Testing","5 - Planning","Canceled","CDNA Stratogent","Varunsimha M P (C)","2025-06-27 01:51:43",""
