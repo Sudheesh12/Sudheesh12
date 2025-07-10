@@ -1,0 +1,22 @@
+Resources
+| where type =~ 'microsoft.compute/virtualmachines'
+| extend 
+    Environment = iif(isempty(tostring(tags["Environment"])), "NA", tostring(tags["Environment"])),
+    MaintenanceGroup = iif(isempty(tostring(tags["MaintenanceGroup"])), "NA", tostring(tags["MaintenanceGroup"])),
+    Contact = iif(isempty(tostring(tags["Contact"])), "NA", tostring(tags["Contact"])),
+    vmId = id
+| join kind=leftouter (
+    Resources
+    | where type =~ 'microsoft.network/networkinterfaces'
+    | mv-expand ipConfigurations = properties.ipConfigurations
+    | extend 
+        privateIp = tostring(ipConfigurations.properties.privateIPAddress),
+        vmId = tostring(properties.virtualMachine.id)
+    | summarize PrivateIPs = strcat_array(make_list(privateIp), ", ") by vmId
+) on $left.vmId == $right.vmId
+| project 
+    Subscription = subscriptionId,
+    ServerName = name,
+    Environment,
+    MaintenanceGroup,
+    PrivateIPs = iif(isempty(PrivateIPs), "NA", PrivateIPs)
