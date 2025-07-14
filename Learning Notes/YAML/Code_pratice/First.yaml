@@ -1,1 +1,34 @@
-name : sudheesh
+name : sudheesh  # name is Key and the sudheesh is value
+age : 25
+server :     #object 
+  name : "sudheeshserver"  #need to give a tab space to add key value pair  to the objects.
+  Size : 50GB
+
+#lists in YAML
+
+List_example :
+  - sudheeshlist-1
+  - sudheeshlist-2
+  - sudheeshlist-3
+  - sudheeshlist-4
+  - sudheeshlist-5 
+
+
+# Multiline string in YAML
+
+Testing : |  # pipe is used for mulitline string
+  this is a 
+  Multi
+  line
+  string
+  100
+
+
+
+# List of objects
+
+List_Objects : 
+  - server_1 :
+      config : Linux
+  - server_2 : server_2
+
