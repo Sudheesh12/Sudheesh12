@@ -36,7 +36,7 @@ Write your terraform files --> Run terraform commands --> Call the target cloud 
 
 **Phases:** init --> validate --> plan --> apply --> destroy
 
-![phases](image.png)
+![phases](./images/image.png)
 
 #### What  is HCL?
 - It  stands for **Hashicorp configuration language**
