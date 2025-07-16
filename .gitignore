@@ -1,0 +1,2 @@
+Terraform/simple_storage_account/*.tfstate*
+.terraform/
