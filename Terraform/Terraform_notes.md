@@ -111,8 +111,48 @@ version = ">= 3.0.0"    --> greater than and equal to the version
 version = "~> 3.0.0"    --> version 3.0.3 , 3.0.10, 3.0.5 can be used by not 3.2.0, 3.10.0. i.e., the lat bit in the version.
 ```
 
+## Terraform state file:
+
+- Terraform state file also know as `terraform.tfstate` is a **JSON** file that acts as an persistent, up to date snapshot of the infrastructure managed by the terraform.
+
+-  It records the current state and metadata of all resources Terraform has created, modified, or deleted, mapping them to the resource definitions in your Terraform configuration files `(.tf files)`.
+
+- This mapping allows Terraform to determine what changes—creations, updates, deletions—need to be made to align your actual infrastructure with your configuration during each run.
 
 
 
+![terraform state](images/statefile.png)
+
+### Using remote backend to store the state file:
+
+
+- **Enables Team Collaboration:** Multiple people can safely work on the same infrastructure and always have access to the latest state file.
+- **Provides State Locking:** Prevents simultaneous changes by different users, reducing the risk of state corruption.
+- **Improves Security:** State file is encrypted at rest, with access managed through Azure RBAC. Sensitive resource data is not stored on individual computers
+- **Ensures Durability:** Azure Storage offers automatic redundancy and backup, protecting the state file from loss or accidental deletion.
+- **Facilitates Automation:** Allows CI/CD pipelines and automation tools to reliably access and update the state file from anywhere.
+- **Avoids Local Risks:** No dependency on a single machine—state is always available, even if local hardware fails.
+- **Supports Versioning:** Azure Blob Storage can provide version history and point-in-time recovery for your state files.
+
+
+### How to use Azure Storage as a remote backend for your Terraform state file:
+
+Step 1 : Create a storage account.
+
+Step 2 : add a backend in the terraform file.
+
+```HCL
+terraform {
+  backend "azurerm" {
+    resource_group_name   = "tfstate"
+    storage_account_name  = "<STORAGE_ACCOUNT_NAME>"
+    container_name        = "tfstate"
+    key                   = "terraform.tfstate"  # This can be any path/filename you wish
+  }
+}
+```
+
+- Here my service principle has the access to an contributor role to my subscription hence there will no issues.
+- however if the your account does not have proper access this may not work and you will be requiring a SAS token, storage account access key, azure AD with manage identity.
 
 
