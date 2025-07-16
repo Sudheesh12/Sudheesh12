@@ -67,6 +67,52 @@ Here:
 `name` and `location` are the **Arguments**.
 
 
+## Terraform provider:
+
+![Terraform providers](images/image1.png)
+
+Terraform providers are plugins that enable Terraform to interact with external services or platforms, such as cloud providers, infrastructure systems, and third-party tools.
+
+It acts as the bridge between the target API and the terraform code.
+
+There are different types of providers:
+- official - managed by hashicorp
+- community - managed by open-source community
+- partners - managed by both hashicorp and the partner provider.
+
+
+
+## Provider version V/S terraform core version:
+
+- Provider version is the version of terraform provider such as azure, aws and GCP.
+- Where as the terraform core version version is the terraform CLI version.
+
+For the code to work seamlessly without any issues it is recommended to **lock the version** both the provider and terraform version.
+
+by doing this we can ensure that even if the code is shared it would work in other machines. as by default terraform will use the latest version and if there is any changes are made in the future version and the code is not updated this may cause some problems.
+
+- It is recommended to use the version which is developed and tested.
+
+### Version operators
+
+`=` : exact match
+
+`!=` : Exclude the exact match
+
+`>,>=,<,<=` : Allow the right most to increment 
+
+`~>` : only allow the right most increments
+
+Examples:
+
+```HCL
+version = "=3.0.0"   --> exact match
+version = ">= 3.0.0"    --> greater than and equal to the version
+version = "~> 3.0.0"    --> version 3.0.3 , 3.0.10, 3.0.5 can be used by not 3.2.0, 3.10.0. i.e., the lat bit in the version.
+```
+
+
+
 
 
 
