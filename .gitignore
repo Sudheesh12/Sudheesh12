@@ -1,2 +1,29 @@
-Terraform/simple_storage_account/*.tfstate*
+# Terraform state files (often contain secrets)
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Local override files
+*.tfvars
+*.tfvars.json
+
+# Sensitive plan output
+*.tfplan
+
+# Terraform directory
 .terraform/
+
+# override config files (local dev settings)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform variable values file
+terraform.tfvars
+terraform.tfvars.json
+
+# Optional: ignore `.terraform.lock.hcl` if managing lock files per environment
+# .terraform.lock.hcl
