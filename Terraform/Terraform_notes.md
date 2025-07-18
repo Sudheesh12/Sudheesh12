@@ -158,5 +158,180 @@ terraform {
 
 ## Variables in Terraform
 
+Variables in terraform are used to make the configuration more flexible, reusable and modular.
+
+There are tree types of variable:
+
+- Input variable
+- output variable
+- local variable
+
+
+---
+
+### 🔹 Types of Variables in Terraform
+
+1. **Input Variables**
+   Allow users to customize Terraform modules or configurations without changing the code.
+
+2. **Output Variables**
+   Used to output information from a module or the root configuration after the apply phase.
+
+---
+
+### 🔸 Input Variables (Declaring)
+
+Input variables are declared using the `variable` block:
+
+```hcl
+variable "region" {
+  description = "The AWS region to deploy into"
+  type        = string
+  default     = "us-east-1"
+}
+```
+
+You can then reference this variable using:
+
+```hcl
+provider "aws" {
+  region = var.region
+}
+```
+
+---
+
+### 🔹 Variable Types
+
+Terraform supports the following types for variables:
+
+| Type     | Example                           |
+| -------- | --------------------------------- |
+| `string` | `"us-east-1"`                     |
+| `number` | `5` or `5.5`                      |
+| `bool`   | `true` or `false`                 |
+| `list`   | `["web", "db", "cache"]`          |
+| `map`    | `{ environment = "prod" }`        |
+| `object` | `{ name = string, age = number }` |
+| `any`    | Accepts any type                  |
+
+---
+
+### 🔸 Assigning Variable Values
+
+You can assign values to variables in various ways:
+
+1. **Command Line:**
+
+   ```bash
+   terraform apply -var="region=us-west-1"
+   ```
+
+2. **`.tfvars` file:**
+
+   ```hcl
+   region = "us-west-1"
+   ```
+
+   Then apply using:
+
+   ```bash
+   terraform apply -var-file="vars.tfvars"
+   ```
+
+3. **Environment variables:**
+
+   ```bash
+   export TF_VAR_region="us-west-1"
+   ```
+
+---
+
+### 🔹 Output Variables
+
+Output variables are defined using `output` block to show useful info after applying:
+
+```hcl
+output "instance_ip" {
+  value = aws_instance.web.public_ip
+}
+```
+
+---
+
+### 🔸 Example
+
+```hcl
+# main.tf
+variable "instance_type" {
+  type    = string
+  default = "t2.micro"
+}
+
+resource "aws_instance" "web" {
+  ami           = "ami-12345678"
+  instance_type = var.instance_type
+}
+
+output "instance_id" {
+  value = aws_instance.web.id
+}
+```
+
+---
+
+
+---
+
+### 🔺 Precedence 
+| Precedence | Source                                                             |
+| ---------- | ------------------------------------------------------------------ |
+| 🥇 Highest | Command line `-var` and `-var-file`                                |
+| 🥈         | Auto-loaded `.auto.tfvars` and `.auto.tfvars.json` (lexical order) |
+| 🥉         | `terraform.tfvars.json`                                            |
+| 4️⃣        | `terraform.tfvars`                                                 |
+| 5️⃣ Lowest | Environment variables (`TF_VAR_`)                                  |
+
+> 🔸 **Note:** Default values defined in the `variable` blocks are only used **if no value is provided from any of the above sources**.
+
+---
+
+
+## Terraform File Structure
+
+Terraform project structure is simple and flexible. Here’s a **typical file/folder layout** used in most Terraform projects:
+
+---
+
+###  Basic File Structure
+
+```
+my-terraform-project/
+├── main.tf           # Main configuration (resources, providers)
+├── variables.tf      # Input variables declared here
+├── outputs.tf        # Output values shown after apply
+├── terraform.tfvars  # Variable values (optional)
+├── backend.tf        # Remote backend config (optional)
+├── versions.tf       # Provider and Terraform version constraints (optional)
+└── .terraform/       # Internal Terraform state & plugin files (auto-created)
+```
+
+---
+
+
+| File/Folder                | Purpose                                           |
+| -------------------------- | ------------------------------------------------- |
+| `main.tf`                  | Primary config: resources, provider setup, etc.   |
+| `variables.tf`             | Declares input variables with `variable` blocks   |
+| `terraform.tfvars`         | Supplies values for variables (`key = value`)     |
+| `outputs.tf`               | Declares `output` blocks to export values         |
+| `backend.tf`               | Configures remote state (e.g., S3, Azure blob)    |
+| `versions.tf`              | Locks provider and Terraform versions             |
+| `.terraform/`              | Terraform internal files (don't edit manually)    |
+| `terraform.tfstate`        | Tracks the actual deployed state (auto-generated) |
+| `terraform.tfstate.backup` | Backup of the last state file                     |
+
+---
+
 
 

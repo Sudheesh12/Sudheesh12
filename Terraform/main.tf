@@ -23,12 +23,7 @@ resource "azurerm_resource_group" "sud-rg" {
 }
 
 
-#adding virtual network:
-resource "azurerm_virtual_network" "sud-vn" {
-  name                = "sudheesh-tf-VN01"
-  resource_group_name = azurerm_resource_group.sud-rg.name
-  location            = azurerm_resource_group.sud-rg.location
-}
+
 
 
 
