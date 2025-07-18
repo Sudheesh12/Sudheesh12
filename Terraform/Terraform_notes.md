@@ -156,3 +156,7 @@ terraform {
 - however if the your account does not have proper access this may not work and you will be requiring a SAS token, storage account access key, azure AD with manage identity.
 
 
+## Variables in Terraform
+
+
+
