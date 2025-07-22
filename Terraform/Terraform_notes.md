@@ -169,7 +169,7 @@ There are tree types of variable:
 
 ---
 
-### 🔹 Types of Variables in Terraform
+###  Types of Variables in Terraform
 
 1. **Input Variables**
    Allow users to customize Terraform modules or configurations without changing the code.
@@ -179,7 +179,7 @@ There are tree types of variable:
 
 ---
 
-### 🔸 Input Variables (Declaring)
+###  Input Variables (Declaring)
 
 Input variables are declared using the `variable` block:
 
@@ -201,7 +201,7 @@ provider "aws" {
 
 ---
 
-### 🔹 Variable Types
+###  Variable Types
 
 Terraform supports the following types for variables:
 
@@ -217,7 +217,7 @@ Terraform supports the following types for variables:
 
 ---
 
-### 🔸 Assigning Variable Values
+###  Assigning Variable Values
 
 You can assign values to variables in various ways:
 
@@ -247,7 +247,7 @@ You can assign values to variables in various ways:
 
 ---
 
-### 🔹 Output Variables
+### Output Variables
 
 Output variables are defined using `output` block to show useful info after applying:
 
@@ -259,7 +259,7 @@ output "instance_ip" {
 
 ---
 
-### 🔸 Example
+### Example
 
 ```hcl
 # main.tf
@@ -283,7 +283,7 @@ output "instance_id" {
 
 ---
 
-### 🔺 Precedence 
+### Precedence 
 | Precedence | Source                                                             |
 | ---------- | ------------------------------------------------------------------ |
 | 🥇 Highest | Command line `-var` and `-var-file`                                |
@@ -292,7 +292,7 @@ output "instance_id" {
 | 4️⃣        | `terraform.tfvars`                                                 |
 | 5️⃣ Lowest | Environment variables (`TF_VAR_`)                                  |
 
-> 🔸 **Note:** Default values defined in the `variable` blocks are only used **if no value is provided from any of the above sources**.
+> **Note:** Default values defined in the `variable` blocks are only used **if no value is provided from any of the above sources**.
 
 ---
 
@@ -331,7 +331,534 @@ my-terraform-project/
 | `terraform.tfstate`        | Tracks the actual deployed state (auto-generated) |
 | `terraform.tfstate.backup` | Backup of the last state file                     |
 
+
+---
+
+#  Terraform Meta-Arguments: `depends_on`, `count`, and `for_each`
+
+---
+
+## 1.  `depends_on` – Force Resource Dependency
+
+###  Purpose:
+
+Ensures **explicit execution order**, useful when Terraform **cannot detect implicit dependency**.
+
+###  Syntax:
+
+```hcl
+resource "azurerm_virtual_machine_extension" "example" {
+  name                 = "example-script"
+  virtual_machine_id   = azurerm_linux_virtual_machine.example.id
+  publisher            = "Microsoft.Azure.Extensions"
+  type                 = "CustomScript"
+  type_handler_version = "2.1"
+
+  settings = jsonencode({
+    commandToExecute = "echo Hello > /tmp/hello.txt"
+  })
+
+  depends_on = [
+    azurerm_storage_account.example
+  ]
+}
+```
+
+###  Use Case in Azure:
+
+* VM extension depends on storage account to be ready.
+* Used when **script needs access to a blob or file share**.
+
+---
+
+## 2.  `count` – Create Multiple Resource Copies (Index-based)
+
+###  Purpose:
+
+Create **n number of identical resources** or **conditionally enable a resource**.
+
+###  Syntax:
+
+```hcl
+resource "azurerm_network_interface" "example" {
+  count               = 3
+  name                = "nic-${count.index}"
+  location            = azurerm_resource_group.example.location
+  resource_group_name = azurerm_resource_group.example.name
+
+  ip_configuration {
+    name                          = "internal"
+    subnet_id                     = azurerm_subnet.example.id
+    private_ip_address_allocation = "Dynamic"
+  }
+}
+```
+
+### Use Case in Azure:
+
+* Create **multiple NICs** for different VMs.
+* Easily scalable using a number input.
+
+---
+
+## 3.  `for_each` – Create Resources Using Map or Set (Key-based)
+
+###  Purpose:
+
+Create multiple resources from a **set or map** with **named instances** (better than `count` for readability).
+
+### Syntax:
+
+```hcl
+variable "tags" {
+  default = {
+    dev  = "East US"
+    prod = "West Europe"
+  }
+}
+
+resource "azurerm_resource_group" "example" {
+  for_each = var.tags
+
+  name     = "rg-${each.key}"
+  location = each.value
+}
+```
+
+###  Use Case in Azure:
+
+* Create **multiple resource groups**, each with a different environment name and location.
+
 ---
 
 
+## Lifecycle
+
+The `lifecycle` block is a **meta-argument** that allows you to control how Terraform **creates, updates, and destroys** resources.
+
+It's used inside a resource block to change **default behaviors** like:
+
+* When to **ignore changes** to specific attributes
+* Whether to **create before destroy**
+* Prevent accidental **deletion** of resources
+
+---
+
+##  Syntax
+
+```hcl
+resource "azurerm_resource_group" "example" {
+  name     = "rg-example"
+  location = "East US"
+
+  lifecycle {
+    prevent_destroy = true
+    ignore_changes  = [tags]
+  }
+}
+```
+
+---
+
+##  Lifecycle Sub-Arguments
+
+### 1.  `prevent_destroy`
+
+> Prevents Terraform from destroying the resource, even if it's removed from the config.
+
+```hcl
+lifecycle {
+  prevent_destroy = true
+}
+```
+
+####  Use case:
+
+* Prevent accidental deletion of **critical Azure resources** like:
+
+  * Key Vaults
+  * Resource Groups
+  * Databases
+
+---
+
+### 2.  `create_before_destroy`
+
+> Tells Terraform to **create a new resource before destroying the old one**.
+
+```hcl
+lifecycle {
+  create_before_destroy = true
+}
+```
+
+####  Use case:
+
+* Required when **replacing resources** that cannot have downtime.
+* Example: You want to change the name of a VM's NIC.
+
+---
+
+### 3.  `ignore_changes`
+
+> Tells Terraform to **ignore changes** to specific attributes when doing plan/apply.
+
+```hcl
+lifecycle {
+  ignore_changes = [
+    tags,
+    sku
+  ]
+}
+```
+
+####  Use case:
+
+* Avoid unnecessary recreation of Azure resources due to **tag changes** by someone outside Terraform (e.g., Azure Portal, Policy).
+
+---
+
+##  Example in Azure – Using All Lifecycle Controls
+
+```hcl
+resource "azurerm_storage_account" "example" {
+  name                     = "examplestoracc123"
+  resource_group_name      = azurerm_resource_group.example.name
+  location                 = azurerm_resource_group.example.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+
+  tags = {
+    environment = "dev"
+  }
+
+  lifecycle {
+    prevent_destroy     = true
+    create_before_destroy = true
+    ignore_changes      = [tags]
+  }
+}
+```
+
+###  Explanation:
+
+* **Prevent destroy**: Protects the storage account from being deleted.
+* **Create before destroy**: Ensures a new storage account is created before replacing the old one.
+* **Ignore changes**: Ignores tag changes, preventing unwanted updates.
+
+---
+
+## To keep in mind
+
+* **`prevent_destroy`** will cause `terraform destroy` to fail unless overridden with `-target` and lifecycle removed.
+* **`ignore_changes`** should be used cautiously — it can lead to drift.
+* **`create_before_destroy`** requires that the resource supports having 2 instances at once — **VM names and NICs must be unique**.
+
+---
+
+
+## PreCondition Block:
+
+The `Precondition` block **checks an expression before applying a change to a resource**, data source , module or output.
+
+If the expression evaluates to **false**, Terraform stops the plan/apply and returns a custom error message
+
+
+ ### Syntax :
+
+```HCL
+resource "azurerm_storage_account" "example" {
+  name                     = "examplestoracc123"
+  location                 = "East US"
+  resource_group_name      = "rg-example"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+
+  lifecycle {
+    precondition {
+      condition     = var.environment != "prod" || var.enable_https
+      error_message = "HTTPS must be enabled in production."
+    }
+  }
+}
+
+```
+
+
+ | Field           | Type    | Description                                   |
+| --------------- | ------- | --------------------------------------------- |
+| `condition`     | Boolean | Required. Must evaluate to `true` or `false`. |
+| `error_message` | String  | Required. Shown when `condition` is `false`.  |
+
+
+
+
+| Feature          | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| `precondition`   | Validates conditions before applying resource change |
+| Common Use Cases | Region checks, environment-based enforcement         |
+| Available In     | Resources, modules, outputs, data sources            |
+| Required Fields  | `condition`, `error_message`                         |
+
+
+---
+
+
+## Dynamic Block
+
+In Terraform, a **`dynamic` block** is used when you want to **generate nested blocks programmatically**, especially when the number or structure of those nested blocks depends on variables or other dynamic input.
+
+This is most helpful when working with **nested configuration blocks** (like `security_rule`, `ip_configuration`, `tags`, etc.), where the number of blocks is **not fixed**.
+
+---
+
+## 🧠 What is a `dynamic` block?
+
+The `dynamic` block **replaces repeated nested blocks** with a **loop** using `for_each`.
+
+It tells Terraform:
+
+> "Loop through this collection and generate a nested block for each item."
+
+---
+
+## 📘 Syntax
+
+```hcl
+resource "resource_type" "example" {
+  # ...
+
+  dynamic "block_name" {
+    for_each = var.list_or_map
+    content {
+      # Inside here, you use item.value
+    }
+  }
+}
+```
+
+---
+
+## ✅ Example: Azure NSG with Dynamic Security Rules
+
+Let’s say you want to define multiple security rules dynamically for a Network Security Group (NSG):
+
+### 🔹 Without `dynamic` block (hardcoded):
+
+```hcl
+resource "azurerm_network_security_group" "example" {
+  name                = "example-nsg"
+  location            = "East US"
+  resource_group_name = "example-rg"
+
+  security_rule {
+    name                       = "AllowHTTP"
+    priority                   = 100
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "Tcp"
+    source_port_range          = "*"
+    destination_port_range     = "80"
+    source_address_prefix      = "*"
+    destination_address_prefix = "*"
+  }
+
+  # Imagine repeating many more blocks manually...
+}
+```
+
+---
+
+### 🔹 With `dynamic` block:
+
+```hcl
+variable "nsg_rules" {
+  default = [
+    {
+      name     = "AllowHTTP"
+      port     = 80
+      priority = 100
+    },
+    {
+      name     = "AllowHTTPS"
+      port     = 443
+      priority = 110
+    }
+  ]
+}
+
+resource "azurerm_network_security_group" "example" {
+  name                = "example-nsg"
+  location            = "East US"
+  resource_group_name = "example-rg"
+
+  dynamic "security_rule" {
+    for_each = var.nsg_rules
+    content {
+      name                       = security_rule.value.name
+      priority                   = security_rule.value.priority
+      direction                  = "Inbound"
+      access                     = "Allow"
+      protocol                   = "Tcp"
+      source_port_range          = "*"
+      destination_port_range     = tostring(security_rule.value.port)
+      source_address_prefix      = "*"
+      destination_address_prefix = "*"
+    }
+  }
+}
+```
+
+---
+
+## 🔄 Breakdown
+
+| Field                 | Purpose                                                   |
+| --------------------- | --------------------------------------------------------- |
+| `dynamic`             | Declares a dynamic block                                  |
+| `security_rule`       | The name of the nested block you're dynamically creating  |
+| `for_each`            | The list or map you're looping through                    |
+| `security_rule.value` | Accesses the current item’s fields in the `content` block |
+
+---
+
+## 🧾 When to Use `dynamic`
+
+✅ Use it when:
+
+* You want to **generate repeated nested blocks** based on input.
+* You need **clean, DRY code** for optional or variable-length configurations.
+
+🚫 Avoid it when:
+
+* You only need to assign attributes (not nested blocks) — use maps/lists or locals instead.
+
+---
+
+## 🧷 Common Use Cases in Azure
+
+| Use Case                         | Dynamic Block Name     |
+| -------------------------------- | ---------------------- |
+| NSG security rules               | `security_rule`        |
+| VM extensions                    | `extension`            |
+| Application Gateway backend pool | `backend_address_pool` |
+| DNS record sets                  | `record`               |
+
+---
+
+
+ Here's a clear and concise Terraform **notes sheet** covering **conditional** and **splat expressions**, with Azure in mind:
+
+---
+
+
+
+## 1. Conditional Expressions (`condition ? true_val : false_val`)
+
+### 🔹 Syntax:
+
+```hcl
+condition ? result_if_true : result_if_false
+```
+
+### 🔹 Use Cases:
+
+* Set different values based on a variable or resource output.
+* Simplify `if-else` logic inside resource blocks or variables.
+
+### 🔹 Example:
+
+```hcl
+variable "environment" {
+  default = "prod"
+}
+
+resource "azurerm_resource_group" "example" {
+  name     = var.environment == "prod" ? "rg-prod" : "rg-dev"
+  location = "East US"
+}
+```
+
+If `var.environment` is `"prod"`, `name = "rg-prod"`, else `name = "rg-dev"`.
+
+---
+
+## ⚠️ Tip:
+
+Can be nested or combined with `count`, `for_each`, and `dynamic`.
+
+---
+
+## ⭐ 2. Splat Expressions (`*` operator)
+
+Splat expressions extract values from **lists of resources** or **complex objects**.
+
+### 🔹 Syntax:
+
+```hcl
+resource_type.resource_name[*].attribute
+```
+
+### 🔹 Example:
+
+```hcl
+output "vm_names" {
+  value = azurerm_virtual_machine.example[*].name
+}
+```
+
+This gives a list of VM names: `["vm1", "vm2", "vm3"]`
+
+---
+
+### 🔹 Full vs. Legacy Splat
+
+| Type             | Example    | Returns             |
+| ---------------- | ---------- | ------------------- |
+| **Full splat**   | `[*].name` | A list of names     |
+| **Legacy splat** | `.name`    | Automatically loops |
+
+```hcl
+azurerm_linux_virtual_machine.vm[*].private_ip_address
+```
+
+---
+
+### 🔹 Splat With Conditions:
+
+```hcl
+output "prod_vm_names" {
+  value = [
+    for vm in azurerm_virtual_machine.example : vm.name
+    if vm.tags["env"] == "prod"
+  ]
+}
+```
+
+---
+
+## 🧠 When to Use Them
+
+| Use Case                      | Use                                 |
+| ----------------------------- | ----------------------------------- |
+| Conditional value assignment  | `? :`                               |
+| Dynamic resource names/values | Conditional + interpolation         |
+| Collecting values from a list | Splat (`[*].attribute`)             |
+| Filtering lists of resources  | `for` + `if` (instead of raw splat) |
+
+---
+
+## ✅ Final Example (Combined Use)
+
+```hcl
+output "vm_private_ips" {
+  value = [
+    for vm in azurerm_linux_virtual_machine.example :
+    vm.private_ip_address
+    if var.environment == "prod"
+  ]
+}
+```
+
+---
 
